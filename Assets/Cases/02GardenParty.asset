@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16bff0f33822ce54a81e5c77ebe6a13e, type: 3}
+  m_Name: 02GardenParty
+  m_EditorClassIdentifier: 
+  setupClips: 81000000800000007f00000082000000
+  players3Clip: 131
+  players4Clip: 133
+  players5Clip: 135
+  introClip: 138
+  menuClip: 137
+  endingClip: 139
+  startSecretPassage: 1
+  startSummonButler: 0
+  startItemCard: 0
+  startInspectorNote: 0
+  eventClips: 
+  secretPassageClips: 09000000040000000800000007000000060000000a000000
+  noteNumberSprites: []
+  butlerClips: 
+  observableRooms: []
+  roomMenu: 0

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0e679ee746cef74385f94d48e72f9ba, type: 3}
+  m_Name: SetupCharactersMC3
+  m_EditorClassIdentifier: 
+  looping: 0
+  nextClipID: {fileID: 11400000, guid: e5a9978c0e5461f4791e551f62928c30, type: 2}
+  buttons: 0
+  onClipStartEvents:
+  - Set3Players
+  onClipEndEvents: []
+  subtitles:
+  - text: You will be using the following characters to play this game.
+    startDelay: 0.5
+    duration: 4.5
+  - text: Please move all these characters to the evidence room.
+    startDelay: 0
+    duration: 4
+  - text: Professor Plum,
+    startDelay: 0.5
+    duration: 1.75
+  - text: Mrs Meadowbrook,
+    startDelay: 0
+    duration: 2
+  - text: Colonel Mustard.
+    startDelay: 0
+    duration: 2

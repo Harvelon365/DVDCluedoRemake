@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0e679ee746cef74385f94d48e72f9ba, type: 3}
+  m_Name: SetupItemsShuffle
+  m_EditorClassIdentifier: 
+  looping: 0
+  nextClipID: {fileID: 11400000, guid: 22a8e533bc21ebb40b7d7c99258d4bde, type: 2}
+  buttons: 0
+  onClipStartEvents: []
+  onClipEndEvents: []
+  subtitles:
+  - text: Shuffle the item card deck.
+    startDelay: 1
+    duration: 2.5

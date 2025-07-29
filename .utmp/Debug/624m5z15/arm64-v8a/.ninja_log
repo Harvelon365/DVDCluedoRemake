@@ -1,0 +1,23 @@
+# ninja log v5
+224	754	7675955700302380	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	f00c3216c4afd3dc
+33	4591	7675955737807411	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	6e926acfbcffec28
+146	3540	7675955727993999	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	3ca583d44ffb001f
+773	3931	7675955728331215	C:/Users/Harvey/OneDrive/Documents/Unity/DVDCluedoRemake/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/624m5z15/obj/arm64-v8a/libswappywrapper.so	2752f2a46681e9b9
+2	3221	7675955724909884	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	dcf419d6edcf5879
+52	3236	7675955724909884	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	9968c8719753cded
+94	3307	7675955725871987	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	d4716a594f731ce7
+74	4447	7675955736299430	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	da064443cf8acc3f
+190	4351	7675955736299430	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	e39dd6f6fca19d7f
+121	5079	7675955743373378	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	82b5f827a12fec11
+5079	5615	7675955748273690	C:/Users/Harvey/OneDrive/Documents/Unity/DVDCluedoRemake/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/624m5z15/obj/arm64-v8a/libgame.so	edbfb536fb383982
+242	480	7677754280877697	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	f00c3216c4afd3dc
+482	928	7677754285185425	C:/Users/Harvey/OneDrive/Documents/Unity/DVDCluedoRemake/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/624m5z15/obj/arm64-v8a/libswappywrapper.so	2752f2a46681e9b9
+12	1726	7677754293314002	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	9968c8719753cded
+151	1747	7677754293503667	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	dcf419d6edcf5879
+211	1783	7677754293861326	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	82b5f827a12fec11
+184	1786	7677754293886455	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	e39dd6f6fca19d7f
+161	1789	7677754293901659	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	da064443cf8acc3f
+225	1893	7677754294982415	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	3ca583d44ffb001f
+197	1895	7677754294977369	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	d4716a594f731ce7
+172	1978	7677754295759108	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	6e926acfbcffec28
+1978	2112	7677754297112727	C:/Users/Harvey/OneDrive/Documents/Unity/DVDCluedoRemake/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/Debug/624m5z15/obj/arm64-v8a/libgame.so	edbfb536fb383982

@@ -1,0 +1,23 @@
+# ninja log v5
+25	2562	7683665142578689	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	60baf7a8743ae2bd
+114	386	7683665120955761	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	22a36dba4364f308
+55	2471	7683665141694935	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	98e4148f6877a2ac
+388	618	7683665123103899	C:/Users/Harvey/OneDrive/Documents/Unity/DVDCluedoRemake/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1o1q651h/obj/arm64-v8a/libswappywrapper.so	773d19b225e89d7f
+99	2252	7683665139531494	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	5d23e13736b2f711
+35	2071	7683665137701376	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	2ee13ad5b701e9e1
+14	1996	7683665136963296	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	86d9fd664b84d5c2
+68	1960	7683665136621416	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	1852b1876b6aba5
+85	2126	7683665138264592	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	b651ddf7776febf
+45	2129	7683665138274624	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	2d94d34185cb9e4c
+2562	2763	7683665144564482	C:/Users/Harvey/OneDrive/Documents/Unity/DVDCluedoRemake/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1o1q651h/obj/arm64-v8a/libgame.so	e6ffda9ab6614c1a
+131	582	7683713066940480	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	22a36dba4364f308
+583	777	7683713068779546	C:/Users/Harvey/OneDrive/Documents/Unity/DVDCluedoRemake/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1o1q651h/obj/arm64-v8a/libswappywrapper.so	773d19b225e89d7f
+108	2218	7683713083219321	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	1852b1876b6aba5
+13	2245	7683713083525293	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	86d9fd664b84d5c2
+20	2272	7683713083696592	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	2ee13ad5b701e9e1
+90	2280	7683713083885958	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	b651ddf7776febf
+41	2330	7683713084357197	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	2d94d34185cb9e4c
+118	2423	7683713085296387	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	5d23e13736b2f711
+99	2548	7683713086583350	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	98e4148f6877a2ac
+82	2648	7683713087549771	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	60baf7a8743ae2bd
+2648	2775	7683713088808328	C:/Users/Harvey/OneDrive/Documents/Unity/DVDCluedoRemake/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/1o1q651h/obj/arm64-v8a/libgame.so	e6ffda9ab6614c1a

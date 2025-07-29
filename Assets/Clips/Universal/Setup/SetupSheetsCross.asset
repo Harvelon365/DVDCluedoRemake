@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0e679ee746cef74385f94d48e72f9ba, type: 3}
+  m_Name: SetupSheetsCross
+  m_EditorClassIdentifier: 
+  looping: 0
+  nextClipID: {fileID: 11400000, guid: 3197ee9d1d9f0fd40ac79ec5a4b1a267, type: 2}
+  buttons: 0
+  onClipStartEvents: []
+  onClipEndEvents: []
+  subtitles:
+  - text: Players should now look at the cards in their hand
+    startDelay: 0.5
+    duration: 3
+  - text: and cross them off on their clue pad.
+    startDelay: 0
+    duration: 2
+  - text: Keep your clue pad secret.
+    startDelay: 0.5
+    duration: 2
