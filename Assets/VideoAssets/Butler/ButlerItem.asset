@@ -17,4 +17,10 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: One more thing,
+    startDelay: 1.92
+    duration: 1.68
+  - text: I believe this item might help in your investigation.
+    startDelay: 0.34
+    duration: 4.74

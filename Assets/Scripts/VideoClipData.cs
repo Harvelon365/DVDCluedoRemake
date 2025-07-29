@@ -13,3 +13,12 @@ public class VideoClipData : ScriptableObject
     public List<string> onClipEndEvents;
     public List<SubtitleLine> subtitles;
 }
+
+[Serializable]
+public class SubtitleLine
+{
+    [TextArea(1, 2)]
+    public string text;
+    public float startDelay;
+    public float duration;
+}

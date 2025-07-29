@@ -17,4 +17,7 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: I'm afraid I'm going off duty now.
+    startDelay: 1.88
+    duration: 3.78

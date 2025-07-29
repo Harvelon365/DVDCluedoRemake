@@ -11,7 +11,7 @@ public class VideoImportEditor : EditorWindow
     private Vector2 videolListScrollPos;
     private GUIStyle videoListStyle;
     
-    [MenuItem("Window/Import Videos")]
+    [MenuItem("Tools/Import Videos")]
     public static void ShowWindow()
     {
         GetWindow<VideoImportEditor>("Import Videos");

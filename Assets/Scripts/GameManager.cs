@@ -824,12 +824,3 @@ public enum ButtonLayouts
     RoomAnswer,
     RoomQuestion
 }
-
-[Serializable]
-public class SubtitleLine
-{
-    [TextArea(1, 2)]
-    public string text;
-    public float startDelay;
-    public float duration;
-}
