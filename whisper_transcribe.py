@@ -10,16 +10,19 @@ def create_segments(words):
     prev_end = 0.0
 
     for word in words:
-        if word["start"] - prev_end > 1:
+        if word["start"] - prev_end > 0.75:
             if not prev_end == 0.0:
                 if not current_segment == []:
                     segments.append(current_segment)
                     current_segment = []
         current_segment.append(word)
         prev_end = word["end"]
-        if word["word"].endswith(('.', ',', '!', '?')) and len(current_segment) > 2:
+        if word["word"].endswith(('.', ',', '!', '?')) and len(current_segment) > 2 and not word["word"].endswith(('Dr.', 'Mr.', 'Mrs.', 'Miss', 'Doctor', 'Prince', 'Professor', 'Colonel', 'Reverend')):
             segments.append(current_segment)
             current_segment = []
+
+    if not current_segment == []:
+        segments.append(current_segment)
 
     return segments
 
