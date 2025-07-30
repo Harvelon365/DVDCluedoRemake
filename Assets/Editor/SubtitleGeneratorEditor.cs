@@ -60,7 +60,7 @@ public class SubtitleGeneratorEditor : EditorWindow
             return;
         }
 
-        foreach (string guid in guids)
+        foreach (var guid in guids)
         {
             var path = AssetDatabase.GUIDToAssetPath(guid);
             var clipData = AssetDatabase.LoadAssetAtPath<VideoClipData>(path);
@@ -69,8 +69,6 @@ public class SubtitleGeneratorEditor : EditorWindow
                 GenerateSubtitles(clipData);
             }
         }
-
-        Debug.Log($"Subtitle generation complete for {guids.Length} assets.");
     }
 
     private async void GenerateSubtitles(VideoClipData clipData)
@@ -78,8 +76,6 @@ public class SubtitleGeneratorEditor : EditorWindow
         var clipName = clipData.name;
         var url = $"https://harveytucker.com/DVDCluedo/{clipName}.mp4";
         var tempPath = Path.Combine(Application.temporaryCachePath, $"{clipName}.mp4");
-
-        Debug.Log($"Subtitling {clipName}");
 
         using (var client = new WebClient())
         {
@@ -175,6 +171,7 @@ public class SubtitleGeneratorEditor : EditorWindow
         try
         {
             var result = JsonConvert.DeserializeObject<List<SubtitleLine>>(jsonOutput);
+            Debug.Log($"Generated subtitles for {Path.GetFileName(videoPath)}");
             return result;
         }
         catch (System.Exception ex)
