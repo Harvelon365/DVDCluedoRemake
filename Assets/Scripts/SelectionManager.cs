@@ -42,7 +42,7 @@ public class SelectionManager : MonoBehaviour
     private void MoveSelectionRight(InputAction.CallbackContext obj)
     {
         if (!isSelecting) return;
-        Sprite tempSprite = currentPageImages[currentPageImages.Length - 1].sprite;
+        Sprite tempSprite = currentPageImages[^1].sprite;
         for (int i = currentPageImages.Length - 1; i > 0; i--)
         {
             currentPageImages[i].sprite = currentPageImages[i - 1].sprite;
@@ -59,12 +59,12 @@ public class SelectionManager : MonoBehaviour
     private void MoveSelectionLeft(InputAction.CallbackContext obj)
     {
         if (!isSelecting) return;
-        Sprite tempSprite = currentPageImages[0].sprite;
-        for (int i = 0; i < currentPageImages.Length - 1; i++)
+        var tempSprite = currentPageImages[0].sprite;
+        for (var i = 0; i < currentPageImages.Length - 1; i++)
         {
             currentPageImages[i].sprite = currentPageImages[i + 1].sprite;
         }
-        currentPageImages[currentPageImages.Length - 1].sprite = tempSprite;
+        currentPageImages[^1].sprite = tempSprite;
         
         currentSelectionIndex--;
         if (currentSelectionIndex < 0)
@@ -101,7 +101,7 @@ public class SelectionManager : MonoBehaviour
         
         currentPageImages = selectionPageButtons[currentPageIndex].GetComponentsInChildren<Image>();
 
-        for (int i = 0; i < currentPageImages.Length; i++)
+        for (var i = 0; i < currentPageImages.Length; i++)
         {
             currentPageImages[i].sprite = selectionSprites[i];
         }

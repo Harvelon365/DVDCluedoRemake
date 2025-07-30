@@ -1,16 +1,15 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.IO;
-using Newtonsoft.Json;
 using TMPro;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.Video;
-using UnityEngine.InputSystem;
+using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
 {
@@ -136,11 +135,11 @@ public class GameManager : MonoBehaviour
     {
         Instance = this;
         
-        videoPlayer.prepareCompleted += (VideoPlayer vp) =>
+        videoPlayer.prepareCompleted += vp =>
         {
             videoPlayer.Play();
             
-            foreach (string startEvent in currentClipData.onClipStartEvents)
+            foreach (var startEvent in currentClipData.onClipStartEvents)
             {
                 Invoke(startEvent, 0f);
             }
@@ -185,7 +184,7 @@ public class GameManager : MonoBehaviour
     
     public void StartCase(int caseIndex)
     {
-        SaveLoadManager.InvalidateSaveData(); //TODO Change save data, move SOs to Resources folder and use name to load
+        SaveLoadManager.InvalidateSaveData();
         currentCase = cases[caseIndex];
         enableSecretPassage = currentCase.startSecretPassage;
         enableSummonButler = currentCase.startSummonButler;
@@ -376,9 +375,9 @@ public class GameManager : MonoBehaviour
         {
             if (currentClipData.nextClipID == null)
             {
-                loopPointHandler = (VideoPlayer vp) =>
+                loopPointHandler = _ =>
                 {
-                    foreach (string endEvent in currentClipData.onClipEndEvents)
+                    foreach (var endEvent in currentClipData.onClipEndEvents)
                     {
                         Invoke(endEvent, 0f);
                     }
@@ -386,9 +385,9 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                loopPointHandler = (VideoPlayer vp) =>
+                loopPointHandler = _ =>
                 {
-                    foreach (string endEvent in currentClipData.onClipEndEvents)
+                    foreach (var endEvent in currentClipData.onClipEndEvents)
                     {
                         Invoke(endEvent, 0f);
                     }
@@ -399,7 +398,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            loopPointHandler = (VideoPlayer vp) =>
+            loopPointHandler = _ =>
             {
                 subtitleIndex = 0;
                 showNextSubtitleCoroutine = StartCoroutine(ShowNextSubtitle());
@@ -447,12 +446,12 @@ public class GameManager : MonoBehaviour
                 mainMenu.SetupButtons(clipLinkIndexes);
                 break;
             case ButtonLayouts.CaseMenu:
-                clipLinkIndexes.Add(enableSecretPassage ? passageStartClip : disabledButtonsClip); //TODO Add name for secret passage start clip and others below
+                clipLinkIndexes.Add(enableSecretPassage ? passageStartClip : disabledButtonsClip);
                 clipLinkIndexes.Add(enableSummonButler ? staticButtonsClip : disabledButtonsClip);
                 clipLinkIndexes.Add(enableItemCard ? staticButtonsClip : disabledButtonsClip);
                 clipLinkIndexes.Add(enableInspectorNote ? staticButtonsClip : disabledButtonsClip);
-                clipLinkIndexes.Add(accusationStartClip); // Accusation
-                clipLinkIndexes.Add(restartGameClip); // Restart
+                clipLinkIndexes.Add(accusationStartClip);
+                clipLinkIndexes.Add(restartGameClip);
                 caseMenu.SetupButtons(clipLinkIndexes);
                 break;
             case ButtonLayouts.PassageOk:
@@ -460,15 +459,7 @@ public class GameManager : MonoBehaviour
                 passageOk.SetupButtons(clipLinkIndexes);
                 break;
             case ButtonLayouts.InspectorCall:
-                if (nextEventIndex >= currentCase.eventClips.Length)
-                {
-                    clipLinkIndexes.Add(overflowEventClip);
-                }
-                else
-                {
-                    clipLinkIndexes.Add(currentCase.eventClips[nextEventIndex]);
-                }
-
+                clipLinkIndexes.Add(nextEventIndex >= currentCase.eventClips.Length ? overflowEventClip : currentCase.eventClips[nextEventIndex]);
                 inspectorCall.SetupButtons(clipLinkIndexes);
                 nextEventIndex++;
                 break;
@@ -489,14 +480,7 @@ public class GameManager : MonoBehaviour
                 eventOptionMenu.SetupButtons(clipLinkIndexes);
                 break;
             case ButtonLayouts.SetupRepeat:
-                if (nextSetupClip >= setupClips.Count)
-                {
-                    clipLinkIndexes.Add(currentCase.introClip);
-                }
-                else
-                {
-                    clipLinkIndexes.Add(setupClips[nextSetupClip]);
-                }
+                clipLinkIndexes.Add(nextSetupClip >= setupClips.Count ? currentCase.introClip : setupClips[nextSetupClip]);
                 clipLinkIndexes.Add(previousClip);
                 nextSetupClip++;
                 setupRepeat.SetupButtons(clipLinkIndexes);
@@ -517,14 +501,7 @@ public class GameManager : MonoBehaviour
                 selectionLetterConfirm.SetupButtons(clipLinkIndexes);
                 break;
             case ButtonLayouts.ResultsOk:
-                if (correct == 4)
-                {
-                    clipLinkIndexes.Add(currentCase.endingClip);
-                }
-                else
-                {
-                    clipLinkIndexes.Add(currentCase.menuClip);
-                }
+                clipLinkIndexes.Add(correct == 4 ? currentCase.endingClip : currentCase.menuClip);
                 resultsOk.SetupButtons(clipLinkIndexes);
                 break;
             case ButtonLayouts.NoteInstructionsRepeat:
@@ -560,8 +537,6 @@ public class GameManager : MonoBehaviour
             case ButtonLayouts.RoomQuestion:
                 clipLinkIndexes.Add(currentQuestion.answerClip);
                 roomQuestion.SetupButtons(clipLinkIndexes);
-                break;
-            default:
                 break;
         }
     }
@@ -621,7 +596,7 @@ public class GameManager : MonoBehaviour
 
     private void Set3Players()
     {
-        for (int i = 0; i < setupClips.Count; i++)
+        for (var i = 0; i < setupClips.Count; i++)
         {
             if (setupClips[i].name == "DEALCLIP")
             {
@@ -632,7 +607,7 @@ public class GameManager : MonoBehaviour
 
     private void Set4Players()
     {
-        for (int i = 0; i < setupClips.Count; i++)
+        for (var i = 0; i < setupClips.Count; i++)
         {
             if (setupClips[i].name == "DEALCLIP")
             {
@@ -643,7 +618,7 @@ public class GameManager : MonoBehaviour
 
     private void Set5Players()
     {
-        for (int i = 0; i < setupClips.Count; i++)
+        for (var i = 0; i < setupClips.Count; i++)
         {
             if (setupClips[i].name == "DEALCLIP")
             {
@@ -678,26 +653,22 @@ public class GameManager : MonoBehaviour
     private void AddItemCard()
     {
         enableItemCard = true;
-        if (currentClipData != lastRoomAddedFrom)
-        {
-            availableRooms++;
-            lastRoomAddedFrom = currentClipData;
-        }
+        if (currentClipData == lastRoomAddedFrom) return;
+        availableRooms++;
+        lastRoomAddedFrom = currentClipData;
     }
 
     private void AddInspectorNote()
     {
         enableInspectorNote = true;
-        if (currentClipData != lastNoteAddedFrom)
-        {
-            availableNotes++;
-            lastNoteAddedFrom = currentClipData;
-        }
+        if (currentClipData == lastNoteAddedFrom) return;
+        availableNotes++;
+        lastNoteAddedFrom = currentClipData;
     }
 
     private void PickSelectionLetter()
     {
-        int randomIndex = UnityEngine.Random.Range(0, SelectionManager.Instance.selectionSprites.Length - 1);
+        var randomIndex = Random.Range(0, SelectionManager.Instance.selectionSprites.Length - 1);
         selectionLetterImage.sprite = SelectionManager.Instance.selectionSprites[randomIndex];
         SelectionManager.Instance.currentSelectionLetter = randomIndex;
     }
@@ -721,7 +692,7 @@ public class GameManager : MonoBehaviour
     public void ShowResults(List<int> selections)
     {
         correct = 0;
-        for (int i = 0; i < selections.Count; i++)
+        for (var i = 0; i < selections.Count; i++)
         {
             if (solutions[Array.IndexOf(cases, currentCase)][i] == selections[i])
             {
@@ -747,7 +718,7 @@ public class GameManager : MonoBehaviour
 
     public void StartNotes()
     {
-        int iNum = UnityEngine.Random.Range(0, noteInstructionClips.Length);
+        var iNum = Random.Range(0, noteInstructionClips.Length);
         ShowClip(noteInstructionClips[iNum]);
     }
 
@@ -794,7 +765,7 @@ public class GameManager : MonoBehaviour
     public void StopGame()
     {
         #if UNITY_EDITOR
-            UnityEditor.EditorApplication.isPlaying = false;
+            EditorApplication.isPlaying = false;
         #else
             Application.Quit();
         #endif

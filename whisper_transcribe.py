@@ -7,9 +7,16 @@ import re
 def create_segments(words):
     segments = []
     current_segment = []
+    prev_end = 0.0
 
     for word in words:
+        if word["start"] - prev_end > 1:
+            if not prev_end == 0.0:
+                if not current_segment == []:
+                    segments.append(current_segment)
+                    current_segment = []
         current_segment.append(word)
+        prev_end = word["end"]
         if word["word"].endswith(('.', ',', '!', '?')) and len(current_segment) > 2:
             segments.append(current_segment)
             current_segment = []

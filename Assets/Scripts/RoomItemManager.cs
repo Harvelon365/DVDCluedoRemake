@@ -9,6 +9,11 @@ public class RoomItemManager : MonoBehaviour
     
     private Dictionary<Room, HashSet<RoomQuestion>> usedQuestions = new Dictionary<Room, HashSet<RoomQuestion>>();
 
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     public void GetRandomQuestionFromRoom(Room room, out RoomObservation selectedObservation, out RoomQuestion selectedQuestion)
     {
         while (true)

@@ -3,7 +3,6 @@ using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Text;
-using System.Threading.Tasks;
 using Newtonsoft.Json;
 using UnityEditor;
 using UnityEngine;
@@ -19,7 +18,7 @@ public class SubtitleGeneratorEditor : EditorWindow
         GetWindow<SubtitleGeneratorEditor>("Subtitle Generator");
     }
 
-    void OnGUI()
+    private void OnGUI()
     {
         GUILayout.Label("Generate Subtitles from Remote Video", EditorStyles.boldLabel);
 
@@ -29,7 +28,7 @@ public class SubtitleGeneratorEditor : EditorWindow
 
         if (GUILayout.Button("Browse", GUILayout.Width(60)))
         {
-            string selected = EditorUtility.OpenFolderPanel("Select Folder with VideoClipData", "Assets", "");
+            var selected = EditorUtility.OpenFolderPanel("Select Folder with VideoClipData", "Assets", "");
             if (!string.IsNullOrEmpty(selected))
             {
                 // Convert absolute path to relative project path
@@ -53,7 +52,7 @@ public class SubtitleGeneratorEditor : EditorWindow
     
     private void GenerateSubtitlesForAllInFolder(string folder)
     {
-        string[] guids = AssetDatabase.FindAssets("t:VideoClipData", new[] { folder });
+        var guids = AssetDatabase.FindAssets("t:VideoClipData", new[] { folder });
 
         if (guids.Length == 0)
         {
@@ -63,8 +62,8 @@ public class SubtitleGeneratorEditor : EditorWindow
 
         foreach (string guid in guids)
         {
-            string path = AssetDatabase.GUIDToAssetPath(guid);
-            VideoClipData clipData = AssetDatabase.LoadAssetAtPath<VideoClipData>(path);
+            var path = AssetDatabase.GUIDToAssetPath(guid);
+            var clipData = AssetDatabase.LoadAssetAtPath<VideoClipData>(path);
             if (clipData != null)
             {
                 GenerateSubtitles(clipData);
@@ -74,15 +73,15 @@ public class SubtitleGeneratorEditor : EditorWindow
         Debug.Log($"Subtitle generation complete for {guids.Length} assets.");
     }
 
-    async void GenerateSubtitles(VideoClipData clipData)
+    private async void GenerateSubtitles(VideoClipData clipData)
     {
-        string clipName = clipData.name;
-        string url = $"https://harveytucker.com/DVDCluedo/{clipName}.mp4";
-        string tempPath = Path.Combine(Application.temporaryCachePath, $"{clipName}.mp4");
+        var clipName = clipData.name;
+        var url = $"https://harveytucker.com/DVDCluedo/{clipName}.mp4";
+        var tempPath = Path.Combine(Application.temporaryCachePath, $"{clipName}.mp4");
 
         Debug.Log($"Subtitling {clipName}");
 
-        using (WebClient client = new WebClient())
+        using (var client = new WebClient())
         {
             try
             {
@@ -98,7 +97,7 @@ public class SubtitleGeneratorEditor : EditorWindow
         // Transcribe and populate subtitles
         var result = TranscribeVideoToSubtitles(tempPath);
 
-        if (result != null && result.Count > 0)
+        if (result is { Count: > 0 })
         {
             clipData.subtitles = result;
             EditorUtility.SetDirty(clipData);
@@ -113,10 +112,10 @@ public class SubtitleGeneratorEditor : EditorWindow
 
     private List<SubtitleLine> TranscribeVideoToSubtitles(string videoPath)
     {
-        string audioPath = Path.ChangeExtension(videoPath, ".wav");
+        var audioPath = Path.ChangeExtension(videoPath, ".wav");
 
         // Step 1: Extract audio with FFmpeg
-        ProcessStartInfo ffmpegInfo = new ProcessStartInfo
+        var ffmpegInfo = new ProcessStartInfo
         {
             FileName = "ffmpeg",
             Arguments = $"-i \"{videoPath}\" -ar 16000 -ac 1 -f wav \"{audioPath}\" -y",
@@ -126,22 +125,25 @@ public class SubtitleGeneratorEditor : EditorWindow
             CreateNoWindow = true
         };
 
-        using (Process ffmpeg = Process.Start(ffmpegInfo))
+        using (var ffmpeg = Process.Start(ffmpegInfo))
         {
-            ffmpeg.WaitForExit();
-
-            string error = ffmpeg.StandardError.ReadToEnd();
-            if (!File.Exists(audioPath))
+            if (ffmpeg != null)
             {
-                UnityEngine.Debug.LogError($"FFmpeg failed: {error}");
-                return null;
+                ffmpeg.WaitForExit();
+
+                var error = ffmpeg.StandardError.ReadToEnd();
+                if (!File.Exists(audioPath))
+                {
+                    Debug.LogError($"FFmpeg failed: {error}");
+                    return null;
+                }
             }
         }
 
         // Step 2: Call Python Whisper script
-        string scriptPath = Path.Combine(Application.dataPath, "../whisper_transcribe.py");
+        var scriptPath = Path.Combine(Application.dataPath, "../whisper_transcribe.py");
 
-        ProcessStartInfo whisperInfo = new ProcessStartInfo
+        var whisperInfo = new ProcessStartInfo
         {
             FileName = "python",
             Arguments = $"\"{scriptPath}\" \"{audioPath}\"",
@@ -152,19 +154,22 @@ public class SubtitleGeneratorEditor : EditorWindow
             StandardOutputEncoding = Encoding.UTF8
         };
 
-        string jsonOutput = "";
-        string pythonError = "";
+        var jsonOutput = "";
+        var pythonError = "";
 
-        using (Process whisper = Process.Start(whisperInfo))
+        using (var whisper = Process.Start(whisperInfo))
         {
-            jsonOutput = whisper.StandardOutput.ReadToEnd();
-            pythonError = whisper.StandardError.ReadToEnd();
-            whisper.WaitForExit();
+            if (whisper != null)
+            {
+                jsonOutput = whisper.StandardOutput.ReadToEnd();
+                pythonError = whisper.StandardError.ReadToEnd();
+                whisper.WaitForExit();
+            }
         }
 
         if (!string.IsNullOrEmpty(pythonError))
         {
-            UnityEngine.Debug.LogWarning("Whisper error: " + pythonError);
+            Debug.LogWarning("Whisper error: " + pythonError);
         }
 
         try
@@ -174,7 +179,7 @@ public class SubtitleGeneratorEditor : EditorWindow
         }
         catch (System.Exception ex)
         {
-            UnityEngine.Debug.LogError($"Failed to parse subtitle JSON: {ex.Message}\nOutput was:\n{jsonOutput}");
+            Debug.LogError($"Failed to parse subtitle JSON: {ex.Message}\nOutput was:\n{jsonOutput}");
             return null;
         }
     }

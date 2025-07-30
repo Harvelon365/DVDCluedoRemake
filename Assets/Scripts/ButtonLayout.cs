@@ -14,18 +14,18 @@ public class ButtonLayout : MonoBehaviour
     {
         navigableButtons = buttons.ToList();
         navigableButtons.Add(new SelectableButton(GameManager.Instance.reloadClipButton, new Vector2(3, 5)));
-        navigableButtons.Add(new SelectableButton(GameManager.Instance.settingsButton, new Vector2(3, 6)));;
+        navigableButtons.Add(new SelectableButton(GameManager.Instance.settingsButton, new Vector2(3, 6)));
     }
 
     public void SetupButtons(List<VideoClipData> clipLinkIndexes)
     {
         GameManager.Instance.currentLayout = this;
         
-        for (int i = 0; i < buttons.Length; i++)
+        for (var i = 0; i < buttons.Length; i++)
         {
             buttons[i].button.onClick.RemoveAllListeners();
             
-            VideoClipData clipLinkIndex = clipLinkIndexes[i];
+            var clipLinkIndex = clipLinkIndexes[i];
 
             switch (clipLinkIndex.name)
             {
@@ -60,17 +60,20 @@ public class ButtonLayout : MonoBehaviour
     
     public void UpdateButtonNavigation()
     {
-        for (int i = 0; i < navigableButtons.Count; i++)
+        for (var i = 0; i < navigableButtons.Count; i++)
         {
-            SelectableButton current = navigableButtons[i];
+            var current = navigableButtons[i];
             if (!current.button.interactable) continue;
             
-            Navigation nav = new Navigation { mode = Navigation.Mode.Explicit };
-            nav.selectOnUp = GetNearestSelectable(i, Vector2.down);
-            nav.selectOnDown = GetNearestSelectable(i, Vector2.up);
-            nav.selectOnLeft = GetNearestSelectable(i, Vector2.left);
-            nav.selectOnRight = GetNearestSelectable(i, Vector2.right);
-            
+            var nav = new Navigation
+            {
+                mode = Navigation.Mode.Explicit,
+                selectOnUp = GetNearestSelectable(i, Vector2.down),
+                selectOnDown = GetNearestSelectable(i, Vector2.up),
+                selectOnLeft = GetNearestSelectable(i, Vector2.left),
+                selectOnRight = GetNearestSelectable(i, Vector2.right)
+            };
+
             current.button.navigation = nav;
         }
 
@@ -84,34 +87,32 @@ public class ButtonLayout : MonoBehaviour
 
     private Selectable GetNearestSelectable(int fromIndex, Vector2 direction)
     {
-        SelectableButton fromButton = navigableButtons[fromIndex];
-        Vector2 fromPosition = fromButton.gridPosition;
+        var fromButton = navigableButtons[fromIndex];
+        var fromPosition = fromButton.gridPosition;
         
-        float bestScore = float.MaxValue;
+        var bestScore = float.MaxValue;
         SelectableButton bestButton = null;
         
-        for (int i = 0; i < navigableButtons.Count; i++)
+        for (var i = 0; i < navigableButtons.Count; i++)
         {
             if (i == fromIndex) continue;
             
-            SelectableButton candidate = navigableButtons[i];
+            var candidate = navigableButtons[i];
             if (candidate.button == null) continue;
             if (!candidate.button.interactable) continue;
             if (!candidate.button.gameObject.activeInHierarchy) continue;
             
-            Vector2 toPosition = candidate.gridPosition;
-            Vector2 vectorToTarget = (toPosition - fromPosition).normalized;
-            float dot = Vector2.Dot(vectorToTarget, direction);
-            float distance = Vector2.Distance(fromPosition, toPosition);
-            
-            if (dot > 0.7f && distance < bestScore)
-            {
-                bestScore = distance;
-                bestButton = candidate;
-            }
+            var toPosition = candidate.gridPosition;
+            var vectorToTarget = (toPosition - fromPosition).normalized;
+            var dot = Vector2.Dot(vectorToTarget, direction);
+            var distance = Vector2.Distance(fromPosition, toPosition);
+
+            if (!(dot > 0.7f) || !(distance < bestScore)) continue;
+            bestScore = distance;
+            bestButton = candidate;
         }
 
-        return bestButton?.button;;
+        return bestButton?.button;
     }
 
     public void DisableButtonNavigation()

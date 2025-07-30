@@ -45,7 +45,7 @@ public class SaveLoadManager : MonoBehaviour
 
     public SaveData LoadGame()
     {
-        SaveData saveData = new SaveData(
+        var saveData = new SaveData(
             PlayerPrefs.GetInt("Case", 0),
             PlayerPrefs.GetInt("NextPassage", 0),
             PlayerPrefs.GetInt("NextEvent", 0),
