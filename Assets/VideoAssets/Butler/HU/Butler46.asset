@@ -17,4 +17,25 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Good day!
+    startDelay: 2.06
+    duration: 1.12
+  - text: As I prepared Dr. Black's hunting kit,
+    startDelay: 1.12
+    duration: 3.22
+  - text: 'I was able to find the telescope and pocket
+
+      watch that he uses
+      every time he''s on the hunt.'
+    startDelay: 0.32
+    duration: 5.78
+  - text: 'Strangely, I could not find the last item I
+
+      needed to complete
+      his outfit.'
+    startDelay: 1.14
+    duration: 4.6
+  - text: I do hope I find it soon.
+    startDelay: 0.74
+    duration: 1.82

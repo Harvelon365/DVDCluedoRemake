@@ -17,4 +17,19 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Here''s the number of the note that you''ll want
+
+      to read in the
+      Inspector Notebook.'
+    startDelay: 2.36
+    duration: 4.06
+  - text: Now that you know the number,
+    startDelay: 0.58
+    duration: 1.6
+  - text: you can look at the note itself.
+    startDelay: 0.44
+    duration: 1.8
+  - text: Hope you find it helpful.
+    startDelay: 0.54
+    duration: 1.4

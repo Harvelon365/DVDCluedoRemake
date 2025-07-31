@@ -17,4 +17,25 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: You're all doing great work.
+    startDelay: 2.06
+    duration: 1.66
+  - text: It's time to pool our resources.
+    startDelay: 0.32
+    duration: 1.84
+  - text: 'Everyone select one card from your hand that
+
+      you''re going to turn
+      into the evidence room.'
+    startDelay: 0.64
+    duration: 4.56
+  - text: Has everyone got a card?
+    startDelay: 0.44
+    duration: 1.42
+  - text: Good! Now turn in your cards.
+    startDelay: 0.5
+    duration: 2.44
+  - text: We'll crack this case yet.
+    startDelay: 0.42
+    duration: 1.74

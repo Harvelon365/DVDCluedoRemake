@@ -17,4 +17,18 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.2
+    duration: 0.68
+  - text: 'Dr. Black asked that none of the staff dress
+
+      in costume.'
+    startDelay: 1.5
+    duration: 3.94
+  - text: 'Rusty was quite disappointed as he had hopes
+
+      of wearing his pirate
+      costume.'
+    startDelay: 0.9
+    duration: 5.42

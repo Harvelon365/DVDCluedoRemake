@@ -17,4 +17,24 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Some doors start the game locked.
+    startDelay: 0
+    duration: 2.74
+  - text: 'Please take the plastic padlocks and put them
+
+      over the outside
+      doors.'
+    startDelay: 0.5
+    duration: 3.56
+  - text: These are found in the hall,
+    startDelay: 0.72
+    duration: 1.34
+  - text: conservatory and dining room.
+    startDelay: 0.34
+    duration: 1.88
+  - text: 'These doors are impossible at the start of
+
+      the game.'
+    startDelay: 0.66
+    duration: 2.72

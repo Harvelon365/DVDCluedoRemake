@@ -17,4 +17,12 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hand out a sheet from the Cloupat to each player.
+    startDelay: 2.04
+    duration: 3.54
+  - text: 'Each player should also have a pencil or other
+
+      writing implement.'
+    startDelay: 0.46
+    duration: 3.88

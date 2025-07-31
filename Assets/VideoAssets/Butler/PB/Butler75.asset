@@ -17,4 +17,19 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Good day!
+    startDelay: 1.98
+    duration: 1.2
+  - text: Dr. Black asked me to polish some of his items,
+    startDelay: 1.14
+    duration: 3.1
+  - text: namely the letter opener,
+    startDelay: 0.44
+    duration: 1.34
+  - text: crystal paperweight and the pocket watch.
+    startDelay: 0.36
+    duration: 2.18
+  - text: I did this as the guests were eating dinner.
+    startDelay: 0.64
+    duration: 2.86

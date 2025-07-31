@@ -17,4 +17,33 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Oh dear, spring is in the air and the mansion
+
+      has thrown open its
+      windows for spring cleaning.'
+    startDelay: 1.66
+    duration: 6.32
+  - text: Oh, so the butler tells me.
+    startDelay: 0.48
+    duration: 1.8
+  - text: 'Err, but I haven''t come to Dr. Black''s mansion
+
+      to assist in the
+      sweeping.'
+    startDelay: 0.48
+    duration: 3.62
+  - text: A theft has taken place.
+    startDelay: 0.8
+    duration: 1.52
+  - text: 'Someone in this very house has committed the
+
+      vile act.'
+    startDelay: 0.74
+    duration: 4.1
+  - text: 'And I''m here to make sure the thief amongst
+
+      us is swept up with
+      the dust.'
+    startDelay: 0.42
+    duration: 5.68

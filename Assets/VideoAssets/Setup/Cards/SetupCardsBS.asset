@@ -17,4 +17,15 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Use the magnifying glass to find the three
+
+      cards in the large pile
+      that have a fingerprint in the upper right position.'
+    startDelay: 0
+    duration: 7.48
+  - text: 'Without looking, put these three cards in the
+
+      case file.'
+    startDelay: 0.46
+    duration: 3.52

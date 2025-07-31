@@ -17,4 +17,50 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: The week before Dr. Black's 30th birthday,
+    startDelay: 1.7
+    duration: 3.2
+  - text: the day that he comes into his full inhabitants,
+    startDelay: 0.4
+    duration: 2.24
+  - text: 'he arranged to meet with some of his friends
+
+      to discuss private
+      business matters.'
+    startDelay: 0.6
+    duration: 4.54
+  - text: 'Dr. Black has tolerated a lot of bad behavior
+
+      lately,'
+    startDelay: 0.78
+    duration: 3.54
+  - text: but according to his butler,
+    startDelay: 0.54
+    duration: 1.94
+  - text: the last 24 hours has been almost unbearable.
+    startDelay: 0.46
+    duration: 3.3
+  - text: 'The guests have been avoiding each other all
+
+      day,'
+    startDelay: 0.46
+    duration: 2.56
+  - text: creating quite a circus.
+    startDelay: 0.44
+    duration: 1.54
+  - text: And to make matters worse,
+    startDelay: 0.64
+    duration: 1.5
+  - text: amidst this melodrama,
+    startDelay: 0.58
+    duration: 1.16
+  - text: there was a theft.
+    startDelay: 0.4
+    duration: 1.82
+  - text: Dr. Black's nerves are frayed.
+    startDelay: 0.92
+    duration: 2.28
+  - text: This theft might just be the last straw.
+    startDelay: 0.92
+    duration: 3.32

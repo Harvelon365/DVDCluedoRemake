@@ -17,4 +17,23 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 2.08
+    duration: 0.68
+  - text: 'After dinner I entered the study and noticed
+
+      that someone had used
+      the letter opener and telescope because they were not in their usual place.'
+    startDelay: 1.4
+    duration: 10.54
+  - text: 'I put them back on the shelf next to Dr. Black''s
+
+      pocket watch.'
+    startDelay: 0.7
+    duration: 3.34
+  - text: 'I checked them throughout the night but no
+
+      one touched them again.'
+    startDelay: 0.52
+    duration: 3.92

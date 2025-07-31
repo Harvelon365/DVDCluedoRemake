@@ -17,4 +17,10 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Are there any players in the kitchen?
+    startDelay: 2.14
+    duration: 1.96
+  - text: Are there any players in the kitchen?
+    startDelay: 33.04
+    duration: 2.8

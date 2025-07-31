@@ -17,4 +17,21 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 1.96
+    duration: 0.8
+  - text: 'Mrs. Peacock was with Professor Plum in the
+
+      early afternoon.'
+    startDelay: 1.54
+    duration: 4.26
+  - text: 'Plum was explaining another one of his fascinating
+
+      theories on
+      ancient Egypt,'
+    startDelay: 0.7
+    duration: 5.44
+  - text: no doubt.
+    startDelay: 0.36
+    duration: 0.38

@@ -17,4 +17,51 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: As you know,
+    startDelay: 1.12
+    duration: 1.04
+  - text: Dr. Black threw a party yesterday.
+    startDelay: 0.38
+    duration: 1.9
+  - text: A day of sport,
+    startDelay: 0.64
+    duration: 1.6
+  - text: he called it,
+    startDelay: 0.14
+    duration: 0.54
+  - text: 'something to stir the circulation and challenge
+
+      the mind.'
+    startDelay: 0.24
+    duration: 3.26
+  - text: He had the staff line up all the usual games,
+    startDelay: 0.94
+    duration: 2.74
+  - text: chess, croquet, billiards,
+    startDelay: 0.36
+    duration: 1.34
+  - text: darts, you know,
+    startDelay: 0.18
+    duration: 0.38
+  - text: you get the idea.
+    startDelay: 0.08
+    duration: 0.72
+  - text: Unfortunately, sometime during the day,
+    startDelay: 1.1
+    duration: 2.18
+  - text: there was a theft.
+    startDelay: 0.18
+    duration: 0.94
+  - text: To make matters worse,
+    startDelay: 0.52
+    duration: 0.98
+  - text: a thief was one of the guests.
+    startDelay: 0.5
+    duration: 2.1
+  - text: For all Dr. Black's goodwill,
+    startDelay: 0
+    duration: 3.34
+  - text: someone was a very bad sport indeed.
+    startDelay: 0.6
+    duration: 3.34

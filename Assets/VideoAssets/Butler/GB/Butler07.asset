@@ -17,4 +17,21 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.2
+    duration: 0.64
+  - text: At midnight, after all the guests had left,
+    startDelay: 1.52
+    duration: 2.86
+  - text: 'Dr. Black asked me to get his wallet to pay
+
+      the musicians.'
+    startDelay: 0.72
+    duration: 2.84
+  - text: 'Dr. Black was so happy with them that he asked
+
+      them to come back
+      and provide music before dinner at his birthday party.'
+    startDelay: 0.66
+    duration: 7.34

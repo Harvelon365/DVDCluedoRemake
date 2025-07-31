@@ -17,4 +17,30 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: As you know,
+    startDelay: 3.92
+    duration: 1.22
+  - text: Dr. Black threw a fancy dress party yesterday.
+    startDelay: 0.38
+    duration: 2.62
+  - text: 'Dr. Black thought it would be a wonderful way
+
+      to brighten up a
+      winter''s day.'
+    startDelay: 0.82
+    duration: 4.26
+  - text: But something went wrong.
+    startDelay: 0.62
+    duration: 2.92
+  - text: 'Someone among the masked reverence and loyal
+
+      staff is a thief.'
+    startDelay: 1.14
+    duration: 5.8
+  - text: And most disturbing of all,
+    startDelay: 0
+    duration: 2.28
+  - text: the good Professor Plum has gone missing.
+    startDelay: 0.56
+    duration: 3.14

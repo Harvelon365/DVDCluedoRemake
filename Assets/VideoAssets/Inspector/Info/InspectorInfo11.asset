@@ -17,4 +17,14 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'This room was the focal point of the fancy
+
+      dress party.'
+    startDelay: 2.18
+    duration: 3.56
+  - text: 'The staff and guests mingled here the entire
+
+      time.'
+    startDelay: 0.52
+    duration: 3.2

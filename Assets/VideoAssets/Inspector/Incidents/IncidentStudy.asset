@@ -17,4 +17,22 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Are you okay?
+    startDelay: 9.98
+    duration: 1
+  - text: This thief is more dastardly than we thought.
+    startDelay: 0.74
+    duration: 2.14
+  - text: 'I''ll take this opportunity to bring some evidence
+
+      back to the
+      evidence room.'
+    startDelay: 0.5
+    duration: 4.08
+  - text: You're hot on the trail now though.
+    startDelay: 0.62
+    duration: 1.82
+  - text: Good show, Toodlepip.
+    startDelay: 0.5
+    duration: 1.42

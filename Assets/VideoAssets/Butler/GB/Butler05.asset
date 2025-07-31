@@ -17,4 +17,25 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 2.06
+    duration: 0.72
+  - text: Dr. Black kept the party running smoothly,
+    startDelay: 1.52
+    duration: 3.12
+  - text: 'using his pocket watch to keep both the guests
+
+      and musicians on
+      schedule.'
+    startDelay: 0.28
+    duration: 4.04
+  - text: 'He''s a master of hurrying people along without
+
+      making them feel
+      rushed.'
+    startDelay: 0.98
+    duration: 3.98
+  - text: Dr. Black's quite the host.
+    startDelay: 0.86
+    duration: 1.98

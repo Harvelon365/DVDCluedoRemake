@@ -17,4 +17,18 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Take one card from each of the other three
+
+      piles and,'
+    startDelay: 0
+    duration: 3.44
+  - text: without looking, place them in the case file.
+    startDelay: 0.16
+    duration: 2.74
+  - text: The case file now contains one suspect,
+    startDelay: 0.54
+    duration: 2.28
+  - text: one room, and one time.
+    startDelay: 0.5
+    duration: 2.26

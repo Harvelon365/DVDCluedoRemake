@@ -17,4 +17,25 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Hello. During the poker game I overheard Colonel
+
+      Mustard and the
+      Reverend Green goading Dr. Black into betting more than just coins.'
+    startDelay: 3.5
+    duration: 8.92
+  - text: Naturally I was shocked.
+    startDelay: 0.64
+    duration: 1.8
+  - text: 'The Colonel was trying to get Dr. Black to
+
+      put his medal into the
+      pot while the Reverend Green was doing the same with the wallet.'
+    startDelay: 0.6
+    duration: 7.24
+  - text: 'Dr. Black immediately locked both these items
+
+      up just to get them
+      to pipe down.'
+    startDelay: 0.7
+    duration: 4.92

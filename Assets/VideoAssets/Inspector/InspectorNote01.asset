@@ -17,4 +17,17 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'I''ve found something out that I think might
+
+      help with this case.'
+    startDelay: 2.32
+    duration: 2.98
+  - text: 'I''ve written it down for you to examine when
+
+      you have a chance.'
+    startDelay: 0.38
+    duration: 3.04
+  - text: It's a new note.
+    startDelay: 0.56
+    duration: 0.82

@@ -17,4 +17,18 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'I was just investigating when I found one of
+
+      the items we are looking
+      for.'
+    startDelay: 2.12
+    duration: 4.54
+  - text: If you stop by the kitchen,
+    startDelay: 0.36
+    duration: 1.32
+  - text: 'I''ll see if you are observant enough to take
+
+      a look at it.'
+    startDelay: 0.44
+    duration: 3.22

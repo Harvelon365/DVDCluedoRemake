@@ -17,4 +17,24 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Here''s the number of the note that you''ll want
+
+      to check out in
+      the Inspector notebook.'
+    startDelay: 2.44
+    duration: 3.9
+  - text: 'Jot this number down and then look through
+
+      my notebook.'
+    startDelay: 0.6
+    duration: 3.68
+  - text: 'Yes, you can look at this notebook again later
+
+      if you want to double
+      check something.'
+    startDelay: 0.68
+    duration: 4.34
+  - text: you
+    startDelay: 17.44
+    duration: 1.4

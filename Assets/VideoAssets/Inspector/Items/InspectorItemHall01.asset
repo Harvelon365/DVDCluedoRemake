@@ -17,4 +17,17 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'I''ve found another one of those items we are
+
+      looking for.'
+    startDelay: 2.26
+    duration: 3.2
+  - text: If you stop by the hall,
+    startDelay: 0.26
+    duration: 1.34
+  - text: 'I''ll see if you are observant enough to take
+
+      a look at it.'
+    startDelay: 0.48
+    duration: 3.24

@@ -17,4 +17,24 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.14
+    duration: 0.72
+  - text: 'Professor Plum arrived just in time for lunch
+
+      and stayed for dinner
+      as well.'
+    startDelay: 1.5
+    duration: 6.08
+  - text: He apologised for being late,
+    startDelay: 0.8
+    duration: 1.82
+  - text: 'saying that he had had a meeting of his Egyptologist
+
+      society.'
+    startDelay: 0.12
+    duration: 5.14
+  - text: Social Club, more like it.
+    startDelay: 1.22
+    duration: 2.08

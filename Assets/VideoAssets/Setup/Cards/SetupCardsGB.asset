@@ -17,4 +17,18 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Now, in the large pile,
+    startDelay: 0
+    duration: 2.5
+  - text: 'find the three cards that have a fingerprint
+
+      in the middle right
+      position.'
+    startDelay: 0.42
+    duration: 5.08
+  - text: 'Without looking, put these three cards in the
+
+      envelope.'
+    startDelay: 0.4
+    duration: 3.5

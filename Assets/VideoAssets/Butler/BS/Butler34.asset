@@ -17,4 +17,27 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 2.1
+    duration: 0.68
+  - text: 'Lady Lavender refused to play any games with
+
+      Mrs. Peacock,'
+    startDelay: 1.52
+    duration: 4.52
+  - text: accusing Mrs. Peacock of being a cheat.
+    startDelay: 0.34
+    duration: 3.1
+  - text: As you can imagine,
+    startDelay: 0.86
+    duration: 0.84
+  - text: it caused quite a stir.
+    startDelay: 0.18
+    duration: 1.42
+  - text: 'Apparently, they used to play bridge together
+
+      and had quite a falling
+      out over a misplaced ace at Mrs. Peacock''s sleeve.'
+    startDelay: 0.42
+    duration: 8.46

@@ -17,4 +17,10 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Are there any players in the Rose Garden?
+    startDelay: 1.98
+    duration: 2.68
+  - text: Are there any players in the Rose Garden?
+    startDelay: 32.48
+    duration: 2.8

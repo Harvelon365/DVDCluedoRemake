@@ -17,4 +17,10 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'I''ve just discovered that the item stolen was
+
+      something Dr. Black
+      had just bought on his holiday in Monte Carlo.'
+    startDelay: 2.18
+    duration: 7.02

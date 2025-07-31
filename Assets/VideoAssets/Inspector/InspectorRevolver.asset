@@ -17,4 +17,24 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Good gravy! Someone has dropped the revolver
+
+      and it went off.'
+    startDelay: 2.12
+    duration: 4.5
+  - text: If anyone has the revolver card,
+    startDelay: 0.6
+    duration: 1.98
+  - text: 'turn it into the evidence room immediately
+
+      before someone gets
+      hurt.'
+    startDelay: 0.36
+    duration: 3.8
+  - text: If no one has the revolver now,
+    startDelay: 0.82
+    duration: 2.08
+  - text: don't worry about it.
+    startDelay: 0.44
+    duration: 1.06

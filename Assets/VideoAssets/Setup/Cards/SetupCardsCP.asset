@@ -17,4 +17,18 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Now, in the large pile,
+    startDelay: 0
+    duration: 2.5
+  - text: 'find the three cards that have a magnifying
+
+      glass picture in the
+      lower left position.'
+    startDelay: 0.48
+    duration: 5.84
+  - text: 'Without looking, put these three cards in the
+
+      envelope.'
+    startDelay: 0.34
+    duration: 3.56

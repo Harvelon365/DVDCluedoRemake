@@ -17,4 +17,19 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.18
+    duration: 0.68
+  - text: 'I can assure you all of Dr. Black''s belongings
+
+      were accounted
+      for by late morning.'
+    startDelay: 1.4
+    duration: 5.84
+  - text: 'I always take an inventory before Rusty and
+
+      Mrs. White prepare
+      the house for summer.'
+    startDelay: 0.96
+    duration: 5.14

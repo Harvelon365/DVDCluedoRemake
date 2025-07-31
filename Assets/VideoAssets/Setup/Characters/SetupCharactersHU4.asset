@@ -17,4 +17,26 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'You will be using the following characters
+
+      to play this game.'
+    startDelay: 0
+    duration: 4.4
+  - text: 'Please move all these characters to the evidence
+
+      room.'
+    startDelay: 0.46
+    duration: 3.22
+  - text: Lady Lavender,
+    startDelay: 0.8
+    duration: 1.3
+  - text: Mescalot,
+    startDelay: 0.86
+    duration: 0.94
+  - text: Reverent Green,
+    startDelay: 1.34
+    duration: 1.12
+  - text: Professor Plum.
+    startDelay: 0.82
+    duration: 0.98

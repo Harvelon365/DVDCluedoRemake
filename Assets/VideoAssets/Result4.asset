@@ -17,4 +17,13 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Bye George, you've done it!
+    startDelay: 2.2
+    duration: 2.3
+  - text: You've solved the case!
+    startDelay: 0.28
+    duration: 1.44
+  - text: Well done, well done indeed!
+    startDelay: 0.5
+    duration: 2.1

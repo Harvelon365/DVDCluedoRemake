@@ -17,4 +17,15 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 1.96
+    duration: 0.88
+  - text: 'Dinner was a very informal affair with no real
+
+      assigned seats.'
+    startDelay: 1.54
+    duration: 5.1
+  - text: But I do remember that everybody was present.
+    startDelay: 0.44
+    duration: 2.68

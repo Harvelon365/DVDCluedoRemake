@@ -17,4 +17,10 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Oh wait, sorry!
+    startDelay: 2.04
+    duration: 1.48
+  - text: False alarm! Carry on!
+    startDelay: 0.6
+    duration: 1.64

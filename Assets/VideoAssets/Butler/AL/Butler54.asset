@@ -17,4 +17,25 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Good day!
+    startDelay: 1.96
+    duration: 1.24
+  - text: 'After lunch, I was looking out of the window
+
+      from the ballroom
+      when I saw a shadow of someone,'
+    startDelay: 1.16
+    duration: 6.64
+  - text: 'or something, move in a nearby room just out
+
+      of the corner of my
+      eye.'
+    startDelay: 0.3
+    duration: 6.24
+  - text: I feel silly saying anything,
+    startDelay: 0.66
+    duration: 2.96
+  - text: it was probably just the cat.
+    startDelay: 0.36
+    duration: 1.88

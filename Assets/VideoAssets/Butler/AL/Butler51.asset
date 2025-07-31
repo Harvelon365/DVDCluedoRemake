@@ -17,4 +17,24 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Good day!
+    startDelay: 1.96
+    duration: 1.28
+  - text: 'I served dinner and everyone was seated almost
+
+      at the same time.'
+    startDelay: 0.94
+    duration: 4.92
+  - text: 'Dr. Black asked that I put on the gramophone
+
+      so they could listen
+      to some Mozart while they dined.'
+    startDelay: 0.48
+    duration: 5.52
+  - text: What a nice,
+    startDelay: 0.6
+    duration: 0.68
+  - text: relaxing dinner it was.
+    startDelay: 0.08
+    duration: 1.62

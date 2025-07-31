@@ -17,4 +17,22 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.08
+    duration: 0.76
+  - text: 'This morning I found Dr. Black''s expensive
+
+      telescope in the secret
+      passage.'
+    startDelay: 1.54
+    duration: 5.4
+  - text: Even more strange,
+    startDelay: 0.68
+    duration: 1.38
+  - text: 'the piece had been damaged with a large dent
+
+      in the metal on one
+      end.'
+    startDelay: 0.92
+    duration: 4.72

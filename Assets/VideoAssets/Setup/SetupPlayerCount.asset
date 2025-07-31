@@ -17,4 +17,7 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: May I ask how many players are playing?
+    startDelay: 1.96
+    duration: 3

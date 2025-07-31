@@ -17,4 +17,26 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: For this investigation,
+    startDelay: 1.98
+    duration: 1.76
+  - text: Mrs. Medebrook will start.
+    startDelay: 0.66
+    duration: 1.6
+  - text: 'After that, play will proceed clockwise around
+
+      the players.'
+    startDelay: 1.04
+    duration: 3.38
+  - text: If you're sitting so that clockwise is unclear,
+    startDelay: 0.7
+    duration: 2.58
+  - text: 'work it out right now so there is no quarrelling
+
+      later.'
+    startDelay: 0.62
+    duration: 3.04
+  - text: Thank you for watching.
+    startDelay: 19.18
+    duration: 3.36

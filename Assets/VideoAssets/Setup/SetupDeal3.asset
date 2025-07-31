@@ -17,4 +17,41 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Now take the large deck of cards.
+    startDelay: 0
+    duration: 2.72
+  - text: The one containing the suspects,
+    startDelay: 0.66
+    duration: 1.54
+  - text: rooms and times and without looking at them,
+    startDelay: 0.52
+    duration: 2.98
+  - text: deal them out to the players.
+    startDelay: 0.48
+    duration: 1.4
+  - text: Deal out 9 to each player.
+    startDelay: 0.74
+    duration: 2.04
+  - text: There will be one card left over.
+    startDelay: 0.56
+    duration: 1.8
+  - text: Place this card face up in the evidence room.
+    startDelay: 0.58
+    duration: 2.58
+  - text: This is your first piece of evidence.
+    startDelay: 0.64
+    duration: 2.24
+  - text: 'Since this card is face up in the evidence
+
+      room,'
+    startDelay: 0.68
+    duration: 3.1
+  - text: it can't be in the envelope.
+    startDelay: 0.4
+    duration: 1.48
+  - text: 'Feel free to cross this card off on your clue
+
+      pad.'
+    startDelay: 0
+    duration: 3.98

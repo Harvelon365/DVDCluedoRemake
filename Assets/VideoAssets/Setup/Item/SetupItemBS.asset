@@ -17,4 +17,22 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Using the magnifying glass and without looking
+
+      at the front of
+      the card,'
+    startDelay: 0
+    duration: 4.06
+  - text: 'find the item card that has a fingerprint in
+
+      the upper right position
+      of the card.'
+    startDelay: 0.36
+    duration: 4.64
+  - text: Without looking at it,
+    startDelay: 0.4
+    duration: 1.44
+  - text: place this card face down in the envelope.
+    startDelay: 0.32
+    duration: 2.48

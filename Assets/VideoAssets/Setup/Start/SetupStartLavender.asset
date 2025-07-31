@@ -17,4 +17,29 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: For this investigation,
+    startDelay: 1.94
+    duration: 1.78
+  - text: Lady Lavender will start.
+    startDelay: 0.74
+    duration: 2.04
+  - text: 'After that, play will proceed clockwise around
+
+      the players.'
+    startDelay: 0.9
+    duration: 3.54
+  - text: If you're sitting so that clockwise is unclear,
+    startDelay: 0.72
+    duration: 2.54
+  - text: 'work it out right now so there is no quarrelling
+
+      later.'
+    startDelay: 0.64
+    duration: 3.06
+  - text: For more information,
+    startDelay: 20.6
+    duration: 1.4
+  - text: visit www.Lavender.com
+    startDelay: 0
+    duration: 0

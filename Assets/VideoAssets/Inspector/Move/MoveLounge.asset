@@ -17,4 +17,7 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Could everyone gather in the lounge please?
+    startDelay: 1.42
+    duration: 2.88

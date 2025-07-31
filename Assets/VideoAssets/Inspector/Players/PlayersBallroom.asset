@@ -17,4 +17,10 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Are there any players in the ballroom?
+    startDelay: 1.96
+    duration: 2.4
+  - text: Are there any players in the ballroom?
+    startDelay: 32.78
+    duration: 2.8

@@ -17,4 +17,21 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'I''ve found this clue that I think might lead
+
+      us to the location
+      of the crime.'
+    startDelay: 2.6
+    duration: 3.78
+  - text: The paper is water stained,
+    startDelay: 0.62
+    duration: 1.82
+  - text: but if you look closely,
+    startDelay: 0.44
+    duration: 1.06
+  - text: 'you can see that the name of the room ends
+
+      in the letter Y.'
+    startDelay: 0.5
+    duration: 3.54

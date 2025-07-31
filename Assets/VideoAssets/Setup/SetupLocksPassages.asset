@@ -17,4 +17,23 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'The secret passages are locked at the start
+
+      of the game.'
+    startDelay: 0
+    duration: 4.12
+  - text: 'Please take the plastic padlocks and put them
+
+      over the secret passages
+      in the kitchen,'
+    startDelay: 0.58
+    duration: 5.62
+  - text: study, lounge and conservatory.
+    startDelay: 0.58
+    duration: 2.94
+  - text: 'These passages are impossible at the start
+
+      of the game.'
+    startDelay: 0.74
+    duration: 3.82

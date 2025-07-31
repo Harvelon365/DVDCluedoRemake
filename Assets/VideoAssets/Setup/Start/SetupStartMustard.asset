@@ -17,4 +17,23 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: For this investigation,
+    startDelay: 1.9
+    duration: 1.84
+  - text: Colonel Mustard will start.
+    startDelay: 0.58
+    duration: 2.3
+  - text: 'After that, play will proceed clockwise around
+
+      the players.'
+    startDelay: 1.06
+    duration: 3.44
+  - text: If you're sitting so that clockwise is unclear,
+    startDelay: 0.7
+    duration: 2.6
+  - text: 'work it out right now so there is no quarrelling
+
+      later.'
+    startDelay: 0.62
+    duration: 3.04

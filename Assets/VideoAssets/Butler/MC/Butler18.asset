@@ -17,4 +17,19 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 1.98
+    duration: 0.8
+  - text: 'Dr. Black was quite upset to notice that some
+
+      items were either
+      missing or stolen.'
+    startDelay: 1.48
+    duration: 5.68
+  - text: 'He first approached me around the time it was
+
+      getting dark to tell
+      me something was missing.'
+    startDelay: 0.62
+    duration: 6.82

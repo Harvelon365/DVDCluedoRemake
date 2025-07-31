@@ -17,4 +17,27 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.14
+    duration: 0.72
+  - text: 'Miss Scarlett and Mrs. Peacock were the first
+
+      to arrive at breakfast.'
+    startDelay: 1.54
+    duration: 4.9
+  - text: 'Miss Scarlett kept asking her mother what her
+
+      business was with
+      Dr. Black.'
+    startDelay: 0.78
+    duration: 4.96
+  - text: Mrs. Peacock kept refusing to tell her.
+    startDelay: 0.88
+    duration: 2.94
+  - text: None of my business,
+    startDelay: 0.84
+    duration: 1.56
+  - text: really.
+    startDelay: 0.18
+    duration: 0.34

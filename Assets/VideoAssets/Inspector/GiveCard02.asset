@@ -17,4 +17,24 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Scotland Yard is getting impatient and wants
+
+      results.'
+    startDelay: 2.12
+    duration: 3.88
+  - text: We're going to have to work together on this.
+    startDelay: 0.54
+    duration: 1.94
+  - text: 'Everyone select one card from your hand that
+
+      you''re going to turn
+      into the evidence room.'
+    startDelay: 0.48
+    duration: 4.54
+  - text: Has everyone got a card?
+    startDelay: 0.46
+    duration: 1.6
+  - text: Good. Now turn in your cards.
+    startDelay: 0.48
+    duration: 2.58

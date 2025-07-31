@@ -17,4 +17,21 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'I''m afraid I''m going to have to ask the butler
+
+      to close the secret
+      passages.'
+    startDelay: 2.04
+    duration: 4.64
+  - text: It's far too dangerous down there.
+    startDelay: 0.4
+    duration: 2.46
+  - text: What with a criminal element about?
+    startDelay: 0.38
+    duration: 1.82
+  - text: 'Place the padlocks on the secret passages for
+
+      the rest of the game.'
+    startDelay: 0.58
+    duration: 4.26

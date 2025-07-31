@@ -17,4 +17,18 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 2.04
+    duration: 0.74
+  - text: As Mrs. White prepared for dinner,
+    startDelay: 1.4
+    duration: 2.58
+  - text: 'she noted that someone was lurking about in
+
+      the West Wing.'
+    startDelay: 0.4
+    duration: 3.78
+  - text: She said it distressed her quite awfully.
+    startDelay: 0.78
+    duration: 2.96

@@ -17,4 +17,9 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Dr Black said that all of his items were indoors
+
+      for the event.'
+    startDelay: 2.06
+    duration: 4.5

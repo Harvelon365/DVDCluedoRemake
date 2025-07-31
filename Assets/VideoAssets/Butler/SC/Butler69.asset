@@ -17,4 +17,27 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.16
+    duration: 0.72
+  - text: 'Miss Scarlett showed up in the early afternoon
+
+      and also stayed
+      through into the night.'
+    startDelay: 1.32
+    duration: 6
+  - text: 'She said that she''d been at her actors meeting
+
+      and was sorry she
+      was late.'
+    startDelay: 0.66
+    duration: 5.12
+  - text: Actors meeting? Hmm.
+    startDelay: 1.16
+    duration: 1.84
+  - text: 'I thought one had to work as an actor to attend
+
+      actors meetings.'
+    startDelay: 0.82
+    duration: 4.5

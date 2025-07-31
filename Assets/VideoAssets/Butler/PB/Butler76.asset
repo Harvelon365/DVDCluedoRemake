@@ -17,4 +17,27 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 2.04
+    duration: 0.72
+  - text: 'At dusk I passed Rusty and Mrs White unpacking
+
+      the garden furniture
+      and crockery and preparing the house for the warmer weather.'
+    startDelay: 1.44
+    duration: 9
+  - text: I remember Rusty complaining,
+    startDelay: 0.9
+    duration: 1.9
+  - text: it's earlier every year,
+    startDelay: 0.8
+    duration: 1.96
+  - text: he said. Next thing you know,
+    startDelay: 0.2
+    duration: 1.7
+  - text: 'black will have us wearing bathing suits in
+
+      the'
+    startDelay: 0.44
+    duration: 3.12

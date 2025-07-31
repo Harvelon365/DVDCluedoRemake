@@ -17,4 +17,29 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: I like your thinking.
+    startDelay: 2.42
+    duration: 1.74
+  - text: 'In fact, I''d say that you got free of those
+
+      correct.'
+    startDelay: 0.54
+    duration: 3.32
+  - text: If only you can get the last fact straight,
+    startDelay: 0.8
+    duration: 2.5
+  - text: you'll solve the case.
+    startDelay: 0.36
+    duration: 1.24
+  - text: In the meantime,
+    startDelay: 0.74
+    duration: 0.54
+  - text: please turn in one card to the evidence room.
+    startDelay: 0.66
+    duration: 2.94
+  - text: 'This way I can help you see where you may have
+
+      gone awry.'
+    startDelay: 0.64
+    duration: 3.64

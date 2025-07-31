@@ -17,4 +17,15 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'I''m afraid that the investigation has become
+
+      more complicated.'
+    startDelay: 1.84
+    duration: 4.16
+  - text: It pains me to say this,
+    startDelay: 0.76
+    duration: 1.88
+  - text: but one of you is the thief.
+    startDelay: 0.2
+    duration: 2.4

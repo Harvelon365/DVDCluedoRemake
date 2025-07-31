@@ -17,4 +17,25 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 2.16
+    duration: 0.6
+  - text: 'The guests thought it would be clever to borrow
+
+      items from Dr.
+      Black to complete their costumes.'
+    startDelay: 1.44
+    duration: 6.54
+  - text: A bit odd,
+    startDelay: 0.56
+    duration: 1
+  - text: if you ask me.
+    startDelay: 0.28
+    duration: 0.84
+  - text: 'But Dr. Black agreed and lent out quite a few
+
+      of his valuable items
+      for the occasion.'
+    startDelay: 0.54
+    duration: 5.36

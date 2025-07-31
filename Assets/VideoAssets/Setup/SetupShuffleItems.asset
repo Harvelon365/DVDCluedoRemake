@@ -17,4 +17,7 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Shuffle the item card deck.
+    startDelay: 0
+    duration: 2.76

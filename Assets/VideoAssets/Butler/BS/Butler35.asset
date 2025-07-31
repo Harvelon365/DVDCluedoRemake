@@ -17,4 +17,21 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Good day!
+    startDelay: 1.96
+    duration: 1.22
+  - text: 'One of the guests had the audacity to use Dr.
+
+      Black''s prized gold
+      pen to keep score during the cribbage match.'
+    startDelay: 1.1
+    duration: 8.2
+  - text: 'Afterwards I made sure it was returned to Dr.
+
+      Black,'
+    startDelay: 0.38
+    duration: 3.46
+  - text: who kept it safely in his waistcoat pocket.
+    startDelay: 0.48
+    duration: 2.78

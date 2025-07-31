@@ -17,4 +17,32 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'The Hunt is an annual autumnal tradition at
+
+      Dr. Black''s Mansion.'
+    startDelay: 0
+    duration: 4.78
+  - text: Oh, so the butler tells me.
+    startDelay: 0.42
+    duration: 1.74
+  - text: 'All of Dr. Black''s friends gather for a day
+
+      of dining,'
+    startDelay: 0.62
+    duration: 3.16
+  - text: socializing, and of course,
+    startDelay: 0.58
+    duration: 1.82
+  - text: the main event itself,
+    startDelay: 0.4
+    duration: 1.18
+  - text: The Hunt. But someone disrupted those plans.
+    startDelay: 0.66
+    duration: 3.56
+  - text: 'A thief decided they had other ideas about
+
+      what was to be hunted
+      at The Mansion.'
+    startDelay: 0.9
+    duration: 5.6

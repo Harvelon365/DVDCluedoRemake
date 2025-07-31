@@ -17,4 +17,9 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Place the remaining 10 item cards in the butler''s
+
+      pantry.'
+    startDelay: 0
+    duration: 4.22

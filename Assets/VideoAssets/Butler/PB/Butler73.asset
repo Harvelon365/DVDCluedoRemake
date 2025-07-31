@@ -17,4 +17,28 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 2.14
+    duration: 0.62
+  - text: I don't know if this helps,
+    startDelay: 1.42
+    duration: 1.92
+  - text: 'but I saw Colonel Mustard with Miss Scarlett
+
+      in the afternoon.'
+    startDelay: 0.28
+    duration: 3.82
+  - text: 'Unfortunately, I didn''t hear what they were
+
+      talking about.'
+    startDelay: 1.02
+    duration: 3
+  - text: 'One of his old war stories or her tales of
+
+      theatre life,'
+    startDelay: 0.88
+    duration: 4.5
+  - text: no doubt.
+    startDelay: 0.3
+    duration: 0.4

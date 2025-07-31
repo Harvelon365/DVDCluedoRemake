@@ -17,4 +17,16 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 1.78
+    duration: 1
+  - text: 'Professor Plumb spent all day in the West Wing
+
+      muttering to himself
+      and clearly agitated,'
+    startDelay: 1.52
+    duration: 6.48
+  - text: odd chap.
+    startDelay: 0.78
+    duration: 1.12

@@ -17,4 +17,10 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Are there any players in the library?
+    startDelay: 1.98
+    duration: 2.32
+  - text: Are there any players in the library?
+    startDelay: 32.84
+    duration: 2.8

@@ -17,4 +17,25 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.22
+    duration: 0.64
+  - text: Yesterday was such a long day.
+    startDelay: 1.5
+    duration: 2.7
+  - text: After I finished my chores right before midnight,
+    startDelay: 0.44
+    duration: 2.82
+  - text: I believe, I headed to bed exhausted.
+    startDelay: 0.3
+    duration: 2.68
+  - text: I'm sure I was the last one to retire.
+    startDelay: 0.8
+    duration: 2.36
+  - text: 'Everyone had been up early for the hunt and
+
+      had already gone to
+      bed.'
+    startDelay: 0.76
+    duration: 3.66

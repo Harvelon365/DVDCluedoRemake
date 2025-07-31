@@ -17,4 +17,32 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello. It's not my place to judge,
+    startDelay: 3.42
+    duration: 3
+  - text: 'but I have to say that the men ate like pigs
+
+      at breakfast,'
+    startDelay: 0.4
+    duration: 4.06
+  - text: devouring every little morsel.
+    startDelay: 0.36
+    duration: 1.72
+  - text: 'The women on the other hand were as ladylike
+
+      as could be,'
+    startDelay: 0.78
+    duration: 3.04
+  - text: hardly eating a thing.
+    startDelay: 0.24
+    duration: 1.1
+  - text: 'In fact, Mrs. Meadowbrook asked only for fruit
+
+      juice before excusing
+      herself,'
+    startDelay: 0.5
+    duration: 4.9
+  - text: then suddenly leaving.
+    startDelay: 0.58
+    duration: 1.28

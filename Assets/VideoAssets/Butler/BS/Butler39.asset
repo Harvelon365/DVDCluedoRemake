@@ -17,4 +17,25 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.26
+    duration: 0.6
+  - text: 'I overheard Mrs. Peacock ask if anyone would
+
+      play chess with her
+      at night before going to bed.'
+    startDelay: 1.44
+    duration: 5.9
+  - text: There were more than a few size.
+    startDelay: 0.7
+    duration: 1.96
+  - text: It had been a long day of games.
+    startDelay: 0.94
+    duration: 1.94
+  - text: 'Nevertheless, one person who hadn''t played
+
+      a game all day relented
+      and said yes.'
+    startDelay: 0.74
+    duration: 5.32

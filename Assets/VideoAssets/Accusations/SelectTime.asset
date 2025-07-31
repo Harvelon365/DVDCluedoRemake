@@ -17,4 +17,10 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Put that letter under one of the times of the
+
+      day and select that
+      time.'
+    startDelay: 2.92
+    duration: 6.08

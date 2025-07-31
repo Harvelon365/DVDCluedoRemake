@@ -17,4 +17,7 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Okay then, here's my challenge.
+    startDelay: 1.48
+    duration: 4.36

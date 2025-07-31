@@ -17,4 +17,22 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Good day!
+    startDelay: 1.96
+    duration: 1.22
+  - text: 'The Reverend Green and the Professor left the
+
+      party before the
+      Cortettes'' tea time performance and did not return.'
+    startDelay: 1.2
+    duration: 8.2
+  - text: Who knows what business called them away?
+    startDelay: 1.24
+    duration: 2.84
+  - text: A bit rude,
+    startDelay: 0.68
+    duration: 1.12
+  - text: if you asked me.
+    startDelay: 0.22
+    duration: 0.9

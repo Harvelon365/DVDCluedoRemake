@@ -17,4 +17,14 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'I need to see all of you in the evidence room
+
+      right away.'
+    startDelay: 1.98
+    duration: 4.1
+  - text: 'I need to see all of you in the evidence room
+
+      right away.'
+    startDelay: 32.46
+    duration: 1.4

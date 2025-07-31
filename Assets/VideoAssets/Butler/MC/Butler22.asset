@@ -17,4 +17,16 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Good day.
+    startDelay: 2.02
+    duration: 1.16
+  - text: If I recall correctly,
+    startDelay: 1.02
+    duration: 1.98
+  - text: Dr. Black was given the medal by his late uncle.
+    startDelay: 0.34
+    duration: 3.22
+  - text: Dr. Black is quite fond of it.
+    startDelay: 0.7
+    duration: 2.22

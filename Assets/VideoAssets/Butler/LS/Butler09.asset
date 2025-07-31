@@ -17,4 +17,22 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 2.18
+    duration: 0.6
+  - text: 'Mrs. Peacock and her daughter were clearly
+
+      upset with the Colonel
+      and spent their time in the wing that was as far away from him as possible.'
+    startDelay: 1.52
+    duration: 7.84
+  - text: Who knows what quarrel they're all having.
+    startDelay: 0.52
+    duration: 2.16
+  - text: Best not to stick one's nose in others' business,
+    startDelay: 0.62
+    duration: 2.92
+  - text: I always say.
+    startDelay: 0.36
+    duration: 1.22

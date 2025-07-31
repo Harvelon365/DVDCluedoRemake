@@ -17,4 +17,10 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'It''s come to my attention that all of Dr. Black''s
+
+      items were
+      indoors all day.'
+    startDelay: 2.06
+    duration: 6.42

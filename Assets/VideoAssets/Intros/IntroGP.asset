@@ -17,4 +17,27 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Dr. Black gathered all of his friends together
+
+      at his mansion for
+      an end of summer garden party.'
+    startDelay: 2.24
+    duration: 6.78
+  - text: Come enjoy the last of the summer sun,
+    startDelay: 0.64
+    duration: 2.5
+  - text: the invitation read.
+    startDelay: 0.38
+    duration: 1
+  - text: 'But apparently someone in the house took advantage
+
+      of the situation
+      and committed theft.'
+    startDelay: 0.74
+    duration: 6.26
+  - text: 'Someone had something else on his or her mind
+
+      other than the weather.'
+    startDelay: 0.82
+    duration: 5.14

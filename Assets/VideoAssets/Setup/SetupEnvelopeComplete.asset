@@ -17,4 +17,14 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Close the case file and place it to one side
+
+      of the board.'
+    startDelay: 0.6
+    duration: 3.38
+  - text: 'The four cards in this envelope are the answer
+
+      to the case.'
+    startDelay: 0.54
+    duration: 3.14

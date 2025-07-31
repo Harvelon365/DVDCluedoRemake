@@ -17,4 +17,13 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Something suspicious is going on outside.
+    startDelay: 2.16
+    duration: 2.42
+  - text: 'Any players who are on the east side of the
+
+      house must immediately
+      go to the fountain.'
+    startDelay: 0.68
+    duration: 4.7

@@ -17,4 +17,10 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Are there any players in the study?
+    startDelay: 2.06
+    duration: 2.18
+  - text: Are there any players in the study?
+    startDelay: 32.9
+    duration: 2.8

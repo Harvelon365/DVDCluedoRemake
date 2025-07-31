@@ -17,4 +17,27 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.16
+    duration: 0.68
+  - text: 'I overheard the violinist saying he saw Miss
+
+      Scarlett when she
+      was last on stage.'
+    startDelay: 1.4
+    duration: 5.66
+  - text: Of course, he was an older gentleman,
+    startDelay: 1.16
+    duration: 2.34
+  - text: 'as I''m afraid it''s been some time since she''s
+
+      been in the spotlight.'
+    startDelay: 0.3
+    duration: 3.78
+  - text: Just after the quartet finished performing,
+    startDelay: 1
+    duration: 2.4
+  - text: he even asked Miss Scarlett for an autograph.
+    startDelay: 0.82
+    duration: 2.76

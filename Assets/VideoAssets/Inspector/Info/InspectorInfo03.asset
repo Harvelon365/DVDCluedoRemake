@@ -17,4 +17,9 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Mrs. Peacock met with Dr. Black just after
+
+      the Reverend Green did.'
+    startDelay: 2.14
+    duration: 4.62

@@ -17,4 +17,19 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Good day!
+    startDelay: 1.84
+    duration: 1.36
+  - text: Mrs White told me something rather interesting.
+    startDelay: 1.16
+    duration: 3.2
+  - text: 'She was cleaning some room in the north wing
+
+      yesterday afternoon
+      and found broken glass.'
+    startDelay: 0.58
+    duration: 6.86
+  - text: Of course, she wasn't happy about that at all.
+    startDelay: 0.84
+    duration: 3.56

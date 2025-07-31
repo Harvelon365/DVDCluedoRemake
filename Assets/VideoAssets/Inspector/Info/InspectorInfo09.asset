@@ -17,4 +17,19 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'I''ve examined all of your alibis and I''m afraid
+
+      to say that I
+      can''t quite rule all of you out as a suspect.'
+    startDelay: 1.74
+    duration: 6.14
+  - text: We must be on our toes.
+    startDelay: 0.46
+    duration: 1.62
+  - text: The thief is very likely one of you.
+    startDelay: 0.72
+    duration: 1.82
+  - text: Carry on.
+    startDelay: 0.74
+    duration: 0.7

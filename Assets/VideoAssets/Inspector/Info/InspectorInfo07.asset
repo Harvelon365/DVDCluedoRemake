@@ -17,4 +17,12 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'I''m happy to say that all of your alibis hold
+
+      up.'
+    startDelay: 2.18
+    duration: 4.2
+  - text: None of you are the thief.
+    startDelay: 0.54
+    duration: 1.52

@@ -17,4 +17,28 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 2.14
+    duration: 0.64
+  - text: During the afternoon,
+    startDelay: 1.46
+    duration: 1.52
+  - text: 'I noticed Dr. Black used the telescope to watch
+
+      the croquet match
+      in the Rose Garden.'
+    startDelay: 0.48
+    duration: 5.36
+  - text: 'Whoever was playing was rather awful and gave
+
+      Dr. Black a good
+      laugh.'
+    startDelay: 0.86
+    duration: 4.44
+  - text: 'Afterwards, he returned the telescope to its
+
+      case and locked it
+      up for the rest of the event.'
+    startDelay: 0.8
+    duration: 5.18

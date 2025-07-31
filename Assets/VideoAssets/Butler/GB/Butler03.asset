@@ -17,4 +17,19 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Good day.
+    startDelay: 1.92
+    duration: 1.26
+  - text: 'Dr. Black was busy writing letters in the library
+
+      before the guests
+      arrived.'
+    startDelay: 1.12
+    duration: 4.86
+  - text: 'I''m afraid he''s fallen behind in his correspondence
+
+      and owes
+      quite a few acquaintances letters.'
+    startDelay: 0.98
+    duration: 6.44

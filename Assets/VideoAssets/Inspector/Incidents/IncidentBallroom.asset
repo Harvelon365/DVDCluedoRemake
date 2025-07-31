@@ -17,4 +17,18 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Oh, that was a narrow escape.
+    startDelay: 10.16
+    duration: 2.1
+  - text: 'Why don''t I take something back to the evidence
+
+      room?'
+    startDelay: 0.3
+    duration: 2.92
+  - text: But don't give up now!
+    startDelay: 0.48
+    duration: 1.12
+  - text: You've got this villain on the run.
+    startDelay: 0.4
+    duration: 1.94

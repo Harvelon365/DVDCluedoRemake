@@ -17,4 +17,19 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.14
+    duration: 0.72
+  - text: I know you all think this is terribly nosy,
+    startDelay: 1.38
+    duration: 3.12
+  - text: but as I was serving lunch,
+    startDelay: 0.14
+    duration: 1.7
+  - text: 'I overheard the professor and Lady Lavender
+
+      making plans to take
+      a walk in the grounds during the afternoon.'
+    startDelay: 0.5
+    duration: 7.38

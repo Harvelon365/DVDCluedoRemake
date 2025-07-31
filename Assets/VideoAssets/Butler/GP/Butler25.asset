@@ -17,4 +17,21 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Hello! Rusty told me that Lady Lavender left
+
+      her jacket at the
+      mansion yesterday during the party.'
+    startDelay: 3.84
+    duration: 6.52
+  - text: 'I''m afraid this wouldn''t be the first time
+
+      she''s done this.'
+    startDelay: 0.68
+    duration: 3.66
+  - text: A bit daft,
+    startDelay: 0.52
+    duration: 1.52
+  - text: if you ask me.
+    startDelay: 0.34
+    duration: 0.82

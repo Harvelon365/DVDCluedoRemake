@@ -17,4 +17,21 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Good day.
+    startDelay: 1.84
+    duration: 1.34
+  - text: 'The Professor and Colonel Mustard found themselves
+
+      in the same
+      room at one point during the day.'
+    startDelay: 1.02
+    duration: 6.3
+  - text: After an awkward silence,
+    startDelay: 0.74
+    duration: 1.4
+  - text: 'the Colonel huffed some excuse and returned
+
+      to the ballroom.'
+    startDelay: 0.54
+    duration: 4.4

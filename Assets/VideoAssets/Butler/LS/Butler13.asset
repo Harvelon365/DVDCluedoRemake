@@ -17,4 +17,32 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.22
+    duration: 0.64
+  - text: After his last appointment,
+    startDelay: 1.44
+    duration: 1.72
+  - text: 'I was very surprised to find Dr. Black in a
+
+      foul mood.'
+    startDelay: 0.32
+    duration: 3.7
+  - text: He was so upset,
+    startDelay: 0.56
+    duration: 0.84
+  - text: he sent the guests home.
+    startDelay: 0.56
+    duration: 1.76
+  - text: 'Then he dismissed the staff for the rest of
+
+      the day and asked that
+      I leave him alone.'
+    startDelay: 0.98
+    duration: 4.44
+  - text: 'It was all very disturbing and quite unlike
+
+      him.'
+    startDelay: 0.98
+    duration: 3.98

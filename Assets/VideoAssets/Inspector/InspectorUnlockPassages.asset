@@ -17,4 +17,28 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'It''s come to my attention that the secret passages
+
+      are locked.'
+    startDelay: 2.38
+    duration: 4.48
+  - text: 'I''ve asked the butler to unlock them to facilitate
+
+      our investigation.'
+    startDelay: 0.6
+    duration: 3.78
+  - text: So remove the padlocks from the board.
+    startDelay: 0.96
+    duration: 2.18
+  - text: 'You may travel freely through the secret passages
+
+      now.'
+    startDelay: 0.68
+    duration: 3.32
+  - text: But be careful,
+    startDelay: 0.32
+    duration: 1.16
+  - text: the passages could have their own dangers.
+    startDelay: 0.68
+    duration: 2.4

@@ -17,4 +17,24 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Oh dear, one of you has been hoarding information.
+    startDelay: 1.98
+    duration: 2.96
+  - text: 'Come now, well never solve this case with that
+
+      attitude.'
+    startDelay: 0.52
+    duration: 3.02
+  - text: 'The player with the most cards must turn in
+
+      one card to the evidence
+      room.'
+    startDelay: 0.56
+    duration: 4.44
+  - text: If two or more players are tied,
+    startDelay: 0.62
+    duration: 2.26
+  - text: then all who are tied must turn one card in.
+    startDelay: 0.54
+    duration: 3.12

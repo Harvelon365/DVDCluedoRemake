@@ -17,4 +17,9 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'And finally, use the letter to select one item
+
+      from this list.'
+    startDelay: 2.94
+    duration: 5.32

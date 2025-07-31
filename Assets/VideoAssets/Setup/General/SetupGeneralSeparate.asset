@@ -17,4 +17,22 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: First, separate the car deck into four piles.
+    startDelay: 0
+    duration: 3.14
+  - text: An item pile,
+    startDelay: 0.34
+    duration: 0.84
+  - text: a suspect pile,
+    startDelay: 0.38
+    duration: 0.84
+  - text: a time pile,
+    startDelay: 0.3
+    duration: 0.82
+  - text: and a room pile.
+    startDelay: 0.38
+    duration: 0.9
+  - text: Shuffle each pile face down.
+    startDelay: 0.42
+    duration: 1.82

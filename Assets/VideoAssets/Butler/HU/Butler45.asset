@@ -17,4 +17,19 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.1
+    duration: 0.76
+  - text: 'At dinner time last night everyone sat down
+
+      together but I couldn''t
+      help sensing that there was a slight uneasiness amongst the guests.'
+    startDelay: 1.44
+    duration: 9.38
+  - text: Who knows what the cause was?
+    startDelay: 0.6
+    duration: 1.82
+  - text: I think it was due to the hunt going poorly.
+    startDelay: 0.36
+    duration: 3.96

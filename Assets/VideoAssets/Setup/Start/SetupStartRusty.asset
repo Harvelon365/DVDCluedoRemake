@@ -17,4 +17,29 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: For this investigation,
+    startDelay: 1.9
+    duration: 1.8
+  - text: Rusty will start.
+    startDelay: 0.64
+    duration: 2.12
+  - text: 'After that, play will proceed clockwise around
+
+      the players.'
+    startDelay: 1.1
+    duration: 3.38
+  - text: If you're sitting so that clockwise is unclear,
+    startDelay: 0.7
+    duration: 2.56
+  - text: 'work it out right now so there is no quarrelling
+
+      later.'
+    startDelay: 0.64
+    duration: 3.04
+  - text: For more information,
+    startDelay: 20.62
+    duration: 1.4
+  - text: visit Rusty.
+    startDelay: 0
+    duration: 0

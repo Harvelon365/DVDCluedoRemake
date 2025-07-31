@@ -17,4 +17,24 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 2.08
+    duration: 0.68
+  - text: 'I know that Dr. Black did have breakfast with
+
+      the Reverend Green
+      this morning.'
+    startDelay: 1.42
+    duration: 4.9
+  - text: 'Dr. Black asked that I bring him his morning
+
+      paper while they dined.'
+    startDelay: 0.52
+    duration: 3.86
+  - text: 'Lady Lavender appeared just as the meal had
+
+      finished and just had
+      tea.'
+    startDelay: 0.8
+    duration: 5.86

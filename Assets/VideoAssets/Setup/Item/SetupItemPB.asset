@@ -17,4 +17,22 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Using the magnifying glass and without looking
+
+      at the front of
+      the card,'
+    startDelay: 0
+    duration: 3.92
+  - text: 'find the item card that has a notebook in the
+
+      upper right position
+      of the card.'
+    startDelay: 0.5
+    duration: 5.12
+  - text: Without looking at it,
+    startDelay: 0.5
+    duration: 1.2
+  - text: place this card face down in the envelope.
+    startDelay: 0.24
+    duration: 2.68

@@ -17,4 +17,29 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Good day!
+    startDelay: 2.16
+    duration: 1.02
+  - text: After they took their tea,
+    startDelay: 1.12
+    duration: 1.7
+  - text: 'all of the men decided to play poker in the
+
+      lounge.'
+    startDelay: 0.4
+    duration: 3.16
+  - text: They were enjoying themselves so much,
+    startDelay: 0.52
+    duration: 2.88
+  - text: 'it was all I could do to get them to break
+
+      for dinner.'
+    startDelay: 0.42
+    duration: 3.02
+  - text: 'They went right back to their card game afterwards
+
+      and played for
+      the rest of the night.'
+    startDelay: 0.68
+    duration: 4.48

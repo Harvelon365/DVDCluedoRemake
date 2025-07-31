@@ -17,4 +17,25 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Good day.
+    startDelay: 2.16
+    duration: 1.02
+  - text: 'Lady Lavender was slightly uncomfortable during
+
+      dinner and took
+      her jacket off.'
+    startDelay: 1.3
+    duration: 5.56
+  - text: It must have been the heat.
+    startDelay: 0.5
+    duration: 1.22
+  - text: I believe she put it on the back of her chair.
+    startDelay: 0.54
+    duration: 2.64
+  - text: I offered to hang it up,
+    startDelay: 0.56
+    duration: 1.46
+  - text: but she wanted to keep it near her.
+    startDelay: 0.08
+    duration: 2.36

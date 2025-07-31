@@ -17,4 +17,16 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Miss Scarlett said that she was in the lounge
+
+      last night and that
+      someone was moving about in a nearby room.'
+    startDelay: 2.06
+    duration: 6.56
+  - text: She had a bit of a fright,
+    startDelay: 0.7
+    duration: 1.74
+  - text: I'm afraid.
+    startDelay: 0.2
+    duration: 0.42

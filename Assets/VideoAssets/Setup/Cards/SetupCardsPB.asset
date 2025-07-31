@@ -17,4 +17,17 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Now, in the large pile,
+    startDelay: 0
+    duration: 2.48
+  - text: 'find the three cards that have a notebook in
+
+      the upper right position.'
+    startDelay: 0.52
+    duration: 4.36
+  - text: 'Without looking, put these three cards in the
+
+      envelope.'
+    startDelay: 0.34
+    duration: 3.54

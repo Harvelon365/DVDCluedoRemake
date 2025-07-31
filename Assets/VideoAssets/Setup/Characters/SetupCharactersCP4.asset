@@ -17,4 +17,20 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'You will be using the following characters
+
+      to play this game.'
+    startDelay: 0
+    duration: 4.38
+  - text: 'Please move all these characters to the evidence
+
+      room.'
+    startDelay: 0.48
+    duration: 3.22
+  - text: Reverent Green, Mrs Peacock,
+    startDelay: 0.88
+    duration: 3.32
+  - text: Mrs White, Mrs Meadowbrook.
+    startDelay: 0.62
+    duration: 3.5

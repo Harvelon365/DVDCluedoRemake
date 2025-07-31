@@ -17,4 +17,18 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.26
+    duration: 0.6
+  - text: 'Dr. Black asked me to display only one item
+
+      per room.'
+    startDelay: 1.5
+    duration: 4.46
+  - text: 'He thought it would be the best way to show
+
+      off each of his valued
+      items.'
+    startDelay: 0.24
+    duration: 4.22

@@ -17,4 +17,19 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.1
+    duration: 0.74
+  - text: After dismissing the guests and staff,
+    startDelay: 1.46
+    duration: 2.66
+  - text: 'Dr. Black asked me to prepare his desk items
+
+      so that he could do
+      some work in anticipation of his 30th birthday next week.'
+    startDelay: 0.46
+    duration: 8.06
+  - text: He seemed to have quite a weight on his shoulders.
+    startDelay: 0.94
+    duration: 2.7

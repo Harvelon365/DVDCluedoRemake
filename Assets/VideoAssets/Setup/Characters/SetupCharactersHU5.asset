@@ -17,4 +17,26 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'You will be using the following characters
+
+      to play this game.'
+    startDelay: 0
+    duration: 4.38
+  - text: 'Please move all these characters to the evidence
+
+      room.'
+    startDelay: 0.44
+    duration: 3.26
+  - text: Lady Lavender,
+    startDelay: 0.76
+    duration: 1.34
+  - text: Ms. Scarlett,
+    startDelay: 0.84
+    duration: 0.96
+  - text: Reverend Green,
+    startDelay: 1.22
+    duration: 1.28
+  - text: Professor Plum, Rusty.
+    startDelay: 0.82
+    duration: 2.18

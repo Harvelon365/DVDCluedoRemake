@@ -17,4 +17,7 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: There's the letter.
+    startDelay: 2.2
+    duration: 1.36

@@ -17,4 +17,19 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.14
+    duration: 0.72
+  - text: 'Mrs. White told me that the key that opens
+
+      the cases in which all
+      of the valuables were displayed was missing from its hook in the kitchen by
+      the time she served breakfast.'
+    startDelay: 1.52
+    duration: 11.4
+  - text: 'She was quite beside herself to discover it
+
+      was Missou.'
+    startDelay: 0.86
+    duration: 3.82

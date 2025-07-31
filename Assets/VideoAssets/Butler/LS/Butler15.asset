@@ -17,4 +17,32 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 2.14
+    duration: 0.64
+  - text: 'Some of the guests'' requests are getting quite
+
+      out of hand.'
+    startDelay: 1.42
+    duration: 4.64
+  - text: Miss Scarlett, for example,
+    startDelay: 0.74
+    duration: 1.42
+  - text: asked to be served lunch in the lounge.
+    startDelay: 0.44
+    duration: 2.84
+  - text: Such an inconvenience on Mrs. White.
+    startDelay: 0.88
+    duration: 2.12
+  - text: I made up my mind to say something.
+    startDelay: 0.44
+    duration: 1.96
+  - text: But when I arrived to serve her,
+    startDelay: 0.68
+    duration: 1.74
+  - text: 'Miss Scarlett was facing the east window and
+
+      was quite upset.'
+    startDelay: 0.72
+    duration: 4.24

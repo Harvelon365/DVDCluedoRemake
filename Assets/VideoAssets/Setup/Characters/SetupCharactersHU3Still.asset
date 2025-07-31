@@ -17,4 +17,17 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'After all these characters are in the evidence
+
+      room,'
+    startDelay: 2.12
+    duration: 3.22
+  - text: 'have each player select whom they are going
+
+      to play.'
+    startDelay: 0.34
+    duration: 3.34
+  - text: No arguing now.
+    startDelay: 0.48
+    duration: 1.02

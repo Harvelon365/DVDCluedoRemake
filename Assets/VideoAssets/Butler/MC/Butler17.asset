@@ -17,4 +17,19 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.18
+    duration: 0.68
+  - text: 'Yesterday, Dr. Black wanted to show off all
+
+      the items he''s collected
+      over the years as well as his new items.'
+    startDelay: 1.48
+    duration: 7.6
+  - text: 'I was told to display jewellery in the north
+
+      wing and antiques
+      in the west wing.'
+    startDelay: 0.68
+    duration: 6.22

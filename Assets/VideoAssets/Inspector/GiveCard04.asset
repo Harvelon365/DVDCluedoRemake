@@ -17,4 +17,18 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: I need to see what evidence you have been collecting.
+    startDelay: 2.5
+    duration: 3
+  - text: 'Every player select one card to turn into the
+
+      evidence room.'
+    startDelay: 0.54
+    duration: 3.62
+  - text: Once everyone has chosen,
+    startDelay: 0.64
+    duration: 1.44
+  - text: turn in your cards.
+    startDelay: 0.64
+    duration: 1.48

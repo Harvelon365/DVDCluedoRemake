@@ -17,4 +17,32 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: In all fairness,
+    startDelay: 2.02
+    duration: 1.18
+  - text: you are on to something,
+    startDelay: 0.46
+    duration: 0.88
+  - text: or should I say one thing?
+    startDelay: 0.32
+    duration: 1.54
+  - text: 'In fact, my theory and yours only agree in
+
+      one place.'
+    startDelay: 0.66
+    duration: 3.16
+  - text: You got one of the four guesses right.
+    startDelay: 0.7
+    duration: 2.74
+  - text: Since you are having some trouble,
+    startDelay: 0.92
+    duration: 1.48
+  - text: I'm going to look at your notes.
+    startDelay: 0.3
+    duration: 1.46
+  - text: 'Please turn in three cards to the evidence
+
+      room.'
+    startDelay: 0.3
+    duration: 3

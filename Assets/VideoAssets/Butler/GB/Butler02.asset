@@ -17,4 +17,16 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello!
+    startDelay: 1.94
+    duration: 0.82
+  - text: The grand ball started after dinner.
+    startDelay: 1.54
+    duration: 2.54
+  - text: All the guests were there.
+    startDelay: 0.8
+    duration: 1.52
+  - text: The music was magnificent.
+    startDelay: 0.76
+    duration: 2.3

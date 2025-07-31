@@ -17,4 +17,19 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 2.06
+    duration: 0.72
+  - text: 'I was happy to see that all of the guests and
+
+      staff arrived on
+      time for our afternoon tea.'
+    startDelay: 1.4
+    duration: 6.5
+  - text: 'Surprising since they''re not known for being
+
+      the most punctual
+      group.'
+    startDelay: 0.78
+    duration: 4.28

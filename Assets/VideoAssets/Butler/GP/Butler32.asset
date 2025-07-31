@@ -17,4 +17,30 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.14
+    duration: 0.72
+  - text: 'I had complimented Lady Lavender on the jewelry
+
+      on her jacket when
+      she arrived.'
+    startDelay: 1.5
+    duration: 5.48
+  - text: 'She told me that Dr. Black had let her borrow
+
+      it for the weekend.'
+    startDelay: 0.52
+    duration: 3.94
+  - text: He is really so generous.
+    startDelay: 0.4
+    duration: 2.24
+  - text: 'Both guests that arrived with her seemed especially
+
+      impressed by
+      it.'
+    startDelay: 0.78
+    duration: 3.96
+  - text: Almost overly interested.
+    startDelay: 0.42
+    duration: 2.38

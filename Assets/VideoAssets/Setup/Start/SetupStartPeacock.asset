@@ -17,4 +17,23 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: For this investigation,
+    startDelay: 1.96
+    duration: 1.78
+  - text: Mrs. Peacock will start.
+    startDelay: 0.56
+    duration: 2.36
+  - text: 'After that, play will proceed clockwise around
+
+      the players.'
+    startDelay: 1.1
+    duration: 3.38
+  - text: If you're sitting so that clockwise is unclear,
+    startDelay: 0.68
+    duration: 2.6
+  - text: 'work it out right now so there is no quarrelling
+
+      later.'
+    startDelay: 0.64
+    duration: 3.02

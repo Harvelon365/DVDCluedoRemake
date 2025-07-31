@@ -17,4 +17,20 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'You will be using the following characters
+
+      to play this game.'
+    startDelay: 0
+    duration: 4.4
+  - text: 'Please move all these characters to the evidence
+
+      room.'
+    startDelay: 0.42
+    duration: 3.26
+  - text: Professor Plum, Mrs. Meddowbrook,
+    startDelay: 0.78
+    duration: 3.4
+  - text: Colonel Mustard.
+    startDelay: 0.6
+    duration: 1.32

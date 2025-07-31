@@ -17,4 +17,19 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 1.98
+    duration: 0.8
+  - text: 'During lunch, I also overheard the Reverend
+
+      Green and the Prince
+      making plans to play billiards after lunch.'
+    startDelay: 1.4
+    duration: 7.88
+  - text: I really don't make it my business to eavesdrop,
+    startDelay: 0.54
+    duration: 3.5
+  - text: you know.
+    startDelay: 0.24
+    duration: 0.42

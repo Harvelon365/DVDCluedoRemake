@@ -17,4 +17,17 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'A vital piece of information has just come
+
+      to my attention.'
+    startDelay: 2.08
+    duration: 3.3
+  - text: 'I''ve made a note for you that you should read
+
+      when you can.'
+    startDelay: 0.66
+    duration: 2.9
+  - text: This might be the break you're looking for.
+    startDelay: 0.56
+    duration: 2.24

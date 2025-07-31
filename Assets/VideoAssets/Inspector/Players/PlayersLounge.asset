@@ -17,4 +17,10 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Are there any players in the lounge?
+    startDelay: 2.02
+    duration: 2.26
+  - text: Are there any players in the lounge?
+    startDelay: 32.86
+    duration: 2.8

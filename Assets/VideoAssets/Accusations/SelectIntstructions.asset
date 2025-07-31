@@ -17,4 +17,25 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: So, you've come to make an accusation,
+    startDelay: 0.7
+    duration: 2.56
+  - text: have you? Excellent!
+    startDelay: 0.08
+    duration: 1.12
+  - text: Good work! Let's see what you have.
+    startDelay: 0.56
+    duration: 2.4
+  - text: Take the red magnifying glass and we can begin.
+    startDelay: 0.76
+    duration: 3.08
+  - text: Oh, you'll also need the remote for this.
+    startDelay: 0.78
+    duration: 2.38
+  - text: Once you have the magnifying glass and remote,
+    startDelay: 0.64
+    duration: 2.58
+  - text: we'll compare evidence.
+    startDelay: 0.4
+    duration: 1.52

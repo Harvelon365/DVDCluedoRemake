@@ -17,4 +17,27 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'I''ve been called to Dr. Black''s mansion once
+
+      again.'
+    startDelay: 2.22
+    duration: 3.54
+  - text: A theft has taken place,
+    startDelay: 0.72
+    duration: 1.48
+  - text: 'this time when Dr. Black had invited all of
+
+      his friends over for
+      a relaxed late autumn weekend.'
+    startDelay: 0.54
+    duration: 6.44
+  - text: There is a chill in the air,
+    startDelay: 0.94
+    duration: 2.48
+  - text: winter is on the way,
+    startDelay: 0.54
+    duration: 1.5
+  - text: and a thief roams the halls of the mansion.
+    startDelay: 0.64
+    duration: 3.1

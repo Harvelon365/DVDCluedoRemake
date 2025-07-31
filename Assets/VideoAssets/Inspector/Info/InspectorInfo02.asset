@@ -17,4 +17,18 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: I've just learned something that might be important.
+    startDelay: 1.98
+    duration: 3.36
+  - text: 'Dr. Black was meeting with guests yesterday
+
+      to go over private
+      matters concerning his impending inheritance.'
+    startDelay: 0.6
+    duration: 7.22
+  - text: 'He met with them one by one outside at the
+
+      fountain.'
+    startDelay: 0.9
+    duration: 3.44

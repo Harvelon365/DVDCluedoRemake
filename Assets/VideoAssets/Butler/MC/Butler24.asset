@@ -17,4 +17,29 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 2.18
+    duration: 0.6
+  - text: 'Unfortunately, the pocket watch was damaged
+
+      during Dr. Black''s
+      holiday.'
+    startDelay: 1.8
+    duration: 4.64
+  - text: 'Fell off while he was boarding his yacht in
+
+      the Mediterranean,'
+    startDelay: 0.5
+    duration: 2.9
+  - text: 'I''m afraid. Since it was being repaired by
+
+      the local tinker,'
+    startDelay: 0.26
+    duration: 3.56
+  - text: it wasn't in the mansion yesterday.
+    startDelay: 0.62
+    duration: 1.76
+  - text: It was only returned this morning.
+    startDelay: 0.76
+    duration: 1.84

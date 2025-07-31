@@ -17,4 +17,28 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'The Doctor Black invited all of his friends
+
+      to be with him to commemorate
+      the birth of the first grandchild of the king,'
+    startDelay: 0
+    duration: 7.84
+  - text: the young princess Elizabeth,
+    startDelay: 0.54
+    duration: 1.66
+  - text: who was born on April the 21st 1926.
+    startDelay: 0.64
+    duration: 3.82
+  - text: It was meant to be a festive occasion,
+    startDelay: 1.1
+    duration: 2.48
+  - text: a day of conversation and shared company.
+    startDelay: 0.5
+    duration: 2.8
+  - text: 'Unfortunately, someone decided to mark the
+
+      arrival of royalty by
+      acting despicably.'
+    startDelay: 0.86
+    duration: 6.94

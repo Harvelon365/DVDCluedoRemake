@@ -17,4 +17,13 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Good day!
+    startDelay: 1.7
+    duration: 1.56
+  - text: 'Lady Lavender says she remembers seeing the
+
+      letter opener and some
+      other desk thing on a table this morning.'
+    startDelay: 1.12
+    duration: 9.28

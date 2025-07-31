@@ -17,4 +17,18 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 2.06
+    duration: 0.7
+  - text: 'It was just before midnight when Dr. Black
+
+      went up for the night.'
+    startDelay: 1.42
+    duration: 4.44
+  - text: 'The guests followed his lead and retired to
+
+      their quarters at the
+      same time.'
+    startDelay: 0.54
+    duration: 4.58

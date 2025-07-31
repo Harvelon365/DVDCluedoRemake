@@ -17,4 +17,27 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.14
+    duration: 0.72
+  - text: 'During mealtimes, all the guests gathered in
+
+      the dining room to
+      play charades.'
+    startDelay: 1.94
+    duration: 6.02
+  - text: It was quite amusing,
+    startDelay: 0.52
+    duration: 1.52
+  - text: 'although some of the guests complained when
+
+      Dr. Black stumped them
+      with a book called The Great Gatsby by an American named Fitzgerald.'
+    startDelay: 0.44
+    duration: 9.96
+  - text: 'They said it was unfair since they''d never
+
+      heard of it before.'
+    startDelay: 0.68
+    duration: 3.54

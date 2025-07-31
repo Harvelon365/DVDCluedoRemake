@@ -17,4 +17,23 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'You will be using the following characters
+
+      to play this game.'
+    startDelay: 0
+    duration: 4.4
+  - text: 'Please move all these characters to the evidence
+
+      room.'
+    startDelay: 0.44
+    duration: 3.24
+  - text: Rustic,
+    startDelay: 0.98
+    duration: 0.88
+  - text: Reverent Green,
+    startDelay: 0.98
+    duration: 1.2
+  - text: Prince Azure.
+    startDelay: 1.2
+    duration: 0.94

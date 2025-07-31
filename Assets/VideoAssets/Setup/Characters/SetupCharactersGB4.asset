@@ -17,4 +17,23 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'You will be using the following characters
+
+      to play this game.'
+    startDelay: 0
+    duration: 4.4
+  - text: 'Please move all these characters to the evidence
+
+      room.'
+    startDelay: 0.46
+    duration: 3.22
+  - text: Lady Lavender, Mrs White,
+    startDelay: 0.8
+    duration: 3
+  - text: Prince Azure,
+    startDelay: 1.48
+    duration: 0.92
+  - text: Colonel Mustard.
+    startDelay: 0.98
+    duration: 0.98

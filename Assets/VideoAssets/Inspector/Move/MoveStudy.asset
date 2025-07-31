@@ -17,4 +17,12 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Please gather in the study as quickly as you
+
+      can.'
+    startDelay: 2.14
+    duration: 3.08
+  - text: Thank you for watching.
+    startDelay: 33.32
+    duration: 1.4

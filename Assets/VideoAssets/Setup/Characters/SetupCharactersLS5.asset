@@ -17,4 +17,23 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'You will be using the following characters
+
+      to play this game.'
+    startDelay: 0
+    duration: 4.4
+  - text: 'Please move all these characters to the evidence
+
+      room.'
+    startDelay: 0.44
+    duration: 3.24
+  - text: Prince Azure,
+    startDelay: 0.84
+    duration: 1.24
+  - text: Mrs. Meadowbrook, Rusty,
+    startDelay: 0.88
+    duration: 3.26
+  - text: Lady Lavender, Mrs. White.
+    startDelay: 0.9
+    duration: 2.34

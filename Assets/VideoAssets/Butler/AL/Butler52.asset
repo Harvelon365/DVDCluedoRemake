@@ -17,4 +17,34 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.28
+    duration: 0.6
+  - text: As I went to summon the gentleman to lunch,
+    startDelay: 1.42
+    duration: 2.76
+  - text: I heard someone speaking very softly,
+    startDelay: 0.38
+    duration: 2.3
+  - text: almost whispering.
+    startDelay: 0.4
+    duration: 1
+  - text: Of course, this made me suspicious.
+    startDelay: 0.84
+    duration: 2.28
+  - text: I poked my head into the room.
+    startDelay: 0.92
+    duration: 1.8
+  - text: 'But it was only Dr. Black reading a passage
+
+      from an old book to
+      his guests.'
+    startDelay: 0.82
+    duration: 4.42
+  - text: He's got quite a flair for drama,
+    startDelay: 0.78
+    duration: 2.18
+  - text: you know.
+    startDelay: 0.2
+    duration: 0.36

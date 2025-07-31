@@ -17,4 +17,26 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'You will be using the following characters
+
+      to play this game.'
+    startDelay: 0
+    duration: 4.38
+  - text: 'Please move all these characters to the evidence
+
+      room.'
+    startDelay: 0.44
+    duration: 3.26
+  - text: Colonel Mustard,
+    startDelay: 0.76
+    duration: 1.46
+  - text: Rusty,
+    startDelay: 0.76
+    duration: 0.72
+  - text: Reverent Green,
+    startDelay: 1.14
+    duration: 1.54
+  - text: Mescalot.
+    startDelay: 0.86
+    duration: 0.8

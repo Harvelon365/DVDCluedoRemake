@@ -17,4 +17,10 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Very good! Now use the same letter to select
+
+      one room from this
+      list.'
+    startDelay: 3.06
+    duration: 5.4

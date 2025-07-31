@@ -17,4 +17,22 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.08
+    duration: 0.8
+  - text: 'For weeks, Prince Asyeur has been going on
+
+      and on about how good
+      he is at billiards.'
+    startDelay: 1.48
+    duration: 6.38
+  - text: His boasts were quite irritating.
+    startDelay: 0.68
+    duration: 1.78
+  - text: 'I''m not ashamed to say that everyone delighted
+
+      in watching Miss
+      Scarlett beat Prince Asyeur four games to one.'
+    startDelay: 0.62
+    duration: 8.96

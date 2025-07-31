@@ -17,4 +17,22 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Okay, so you want to take a look at that card.
+    startDelay: 2
+    duration: 3.62
+  - text: Take a look around for a bit.
+    startDelay: 0.7
+    duration: 1.66
+  - text: Keep looking.
+    startDelay: 0.84
+    duration: 0.92
+  - text: Use your powers of observation.
+    startDelay: 0.98
+    duration: 2.12
+  - text: Notice things with a detective's eye.
+    startDelay: 1.04
+    duration: 2.56
+  - text: That's enough!
+    startDelay: 0.8
+    duration: 0.84

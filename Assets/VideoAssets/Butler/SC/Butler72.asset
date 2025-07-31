@@ -17,4 +17,36 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.02
+    duration: 0.86
+  - text: 'Mrs. Medowbrook came by just as tea was being
+
+      served.'
+    startDelay: 1.5
+    duration: 4.44
+  - text: She had wanted to come earlier,
+    startDelay: 0.48
+    duration: 1.64
+  - text: 'but instead went to a talk by a Scotsman named
+
+      Baird.'
+    startDelay: 0.18
+    duration: 4.16
+  - text: 'Something about an invention of his called
+
+      television.'
+    startDelay: 0.66
+    duration: 3.12
+  - text: Some silly moving pictures box apparently.
+    startDelay: 1
+    duration: 2.96
+  - text: 'Mrs. Medowbrook was also the last guest to
+
+      leave.'
+    startDelay: 0.98
+    duration: 3.9
+  - text: Thank you for watching!
+    startDelay: 2.1
+    duration: 0.48

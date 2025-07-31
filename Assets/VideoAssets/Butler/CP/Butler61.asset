@@ -17,4 +17,24 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 2.02
+    duration: 0.76
+  - text: If I remember correctly,
+    startDelay: 1.42
+    duration: 2.02
+  - text: 'the guests didn''t put on their costumes until
+
+      after breakfast.'
+    startDelay: 0.38
+    duration: 3.52
+  - text: 'There was quite an air of excitement as they
+
+      headed upstairs to
+      change.'
+    startDelay: 0.88
+    duration: 4.38
+  - text: No one knew who was going to be in what costume.
+    startDelay: 0.62
+    duration: 4.26

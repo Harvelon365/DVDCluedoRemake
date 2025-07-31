@@ -17,4 +17,23 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Good day!
+    startDelay: 1.96
+    duration: 1.24
+  - text: 'Mrs. Peacock very much wanted to go in costume
+
+      as Napoleon.'
+    startDelay: 1.16
+    duration: 4.48
+  - text: 'Sadly, she said she hadn''t been able to find
+
+      the appropriate hat,'
+    startDelay: 0.86
+    duration: 4.08
+  - text: so wore no costume at all.
+    startDelay: 0.54
+    duration: 1.64
+  - text: Perhaps next year.
+    startDelay: 0.62
+    duration: 1.38

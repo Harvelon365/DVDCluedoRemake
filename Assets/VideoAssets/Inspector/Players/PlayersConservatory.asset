@@ -17,4 +17,10 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Are there any players in the conservatory?
+    startDelay: 2.06
+    duration: 2.38
+  - text: Are there any players in the conservatory?
+    startDelay: 32.7
+    duration: 2.8

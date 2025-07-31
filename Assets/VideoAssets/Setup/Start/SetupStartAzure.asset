@@ -17,4 +17,23 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: For this investigation,
+    startDelay: 1.94
+    duration: 1.8
+  - text: Prince Azure will start.
+    startDelay: 0.62
+    duration: 2.52
+  - text: 'After that, play will proceed clockwise around
+
+      the players.'
+    startDelay: 1
+    duration: 3.52
+  - text: If you're sitting so that clockwise is unclear,
+    startDelay: 0.68
+    duration: 2.6
+  - text: 'work it out right now so there is no quarrelling
+
+      later.'
+    startDelay: 0.62
+    duration: 3.04

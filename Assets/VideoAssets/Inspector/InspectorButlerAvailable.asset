@@ -17,4 +17,22 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'I''ve finished my discussions with Ash the Butler
+
+      and have asked
+      him to start searching the house,'
+    startDelay: 2.16
+    duration: 5.62
+  - text: looking for some of those missing items.
+    startDelay: 0.18
+    duration: 2.04
+  - text: Feel free to summon him to help with your investigations.
+    startDelay: 0.68
+    duration: 3.34
+  - text: 'He is the eyes and ears of the place and may
+
+      have something of
+      interest to say.'
+    startDelay: 0.76
+    duration: 5.36

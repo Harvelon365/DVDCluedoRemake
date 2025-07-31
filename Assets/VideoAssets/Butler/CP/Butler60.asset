@@ -17,4 +17,18 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.18
+    duration: 0.68
+  - text: 'No one was allowed in the kitchen during the
+
+      party,'
+    startDelay: 1.52
+    duration: 3.46
+  - text: 'since Mrs. White was busy preparing meals and
+
+      didn''t want to be
+      disturbed.'
+    startDelay: 0.12
+    duration: 4.38

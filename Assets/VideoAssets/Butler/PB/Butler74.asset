@@ -17,4 +17,26 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.08
+    duration: 0.78
+  - text: I don't mean to demean her character,
+    startDelay: 1.5
+    duration: 2.56
+  - text: 'but Mrs. White has always wanted the telescope
+
+      for herself.'
+    startDelay: 0.54
+    duration: 5.36
+  - text: 'She has repeatedly asked our employer for it
+
+      and been politely
+      rebuffed each time.'
+    startDelay: 0.5
+    duration: 5.72
+  - text: 'Certainly no one else has taken any interest
+
+      in it.'
+    startDelay: 1.04
+    duration: 4.16

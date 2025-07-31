@@ -17,4 +17,26 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 2.14
+    duration: 0.64
+  - text: I'm not sure if you're aware,
+    startDelay: 1.4
+    duration: 2.12
+  - text: 'but Colonel Mustard was the first to come downstairs
+
+      just as breakfast
+      was being served.'
+    startDelay: 0.42
+    duration: 5.28
+  - text: 'He''s always excited about the first hunt of
+
+      the season,'
+    startDelay: 0.72
+    duration: 3.4
+  - text: 'so it was no surprise to us to see him up so
+
+      early.'
+    startDelay: 0
+    duration: 3.9

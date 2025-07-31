@@ -17,4 +17,13 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'This is the letter you are going to use to
+
+      make all four of your
+      selections.'
+    startDelay: 2.08
+    duration: 4.14
+  - text: Do you need to see the letter again?
+    startDelay: 0.6
+    duration: 2.52

@@ -17,4 +17,9 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'I''d like to see everyone right now in the Rose
+
+      Garden.'
+    startDelay: 2.02
+    duration: 3.64

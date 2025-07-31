@@ -17,4 +17,10 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Are there any players in the hall?
+    startDelay: 2.1
+    duration: 2.22
+  - text: Are there any players in the hall?
+    startDelay: 32.82
+    duration: 2.8

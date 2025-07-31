@@ -17,4 +17,21 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Shuffle together the three card piles into
+
+      one card deck.'
+    startDelay: 0
+    duration: 3.44
+  - text: Now, without looking,
+    startDelay: 0.54
+    duration: 0.9
+  - text: take the top two cards of the deck.
+    startDelay: 0.48
+    duration: 2.1
+  - text: 'Place one card face down at the kitchen and
+
+      place the other one
+      face down in the library.'
+    startDelay: 0.44
+    duration: 5.12

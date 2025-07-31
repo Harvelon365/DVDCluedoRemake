@@ -17,4 +17,16 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'I''ve just found out that all the guests were
+
+      gathered together
+      for dinner.'
+    startDelay: 2.06
+    duration: 4.18
+  - text: 'Apparently, Dr. Black gave a Best Costume Award
+
+      to the Lady Lavender
+      at that time.'
+    startDelay: 0.44
+    duration: 5.42

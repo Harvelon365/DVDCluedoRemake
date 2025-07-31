@@ -17,4 +17,28 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.14
+    duration: 0.72
+  - text: 'After breakfast, I heard the gentlemen in the
+
+      conservatory talking
+      about books they had read.'
+    startDelay: 1.5
+    duration: 6.02
+  - text: Of course, the Colonel is a fan of Kipling.
+    startDelay: 0.96
+    duration: 3.38
+  - text: 'The ladies were in the study just chit-chatting
+
+      away the usual
+      gossip about the monarchy.'
+    startDelay: 0.64
+    duration: 5.14
+  - text: 'Rumour has it that the Duke and Duchess of
+
+      York are expecting a
+      child.'
+    startDelay: 0.72
+    duration: 4.36

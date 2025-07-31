@@ -17,4 +17,19 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.18
+    duration: 0.68
+  - text: 'The musicians stored their instruments in the
+
+      conservatory and
+      rested there during their breaks.'
+    startDelay: 1.5
+    duration: 5.78
+  - text: 'Dr. Black asked that none of the guests use
+
+      the room during the
+      party to give the musicians some privacy.'
+    startDelay: 0.92
+    duration: 6.86

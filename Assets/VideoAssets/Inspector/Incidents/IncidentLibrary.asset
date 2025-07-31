@@ -17,4 +17,27 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Great Scott! What kind of madman are we dealing
+
+      with here?'
+    startDelay: 10.3
+    duration: 3.38
+  - text: I see you've dropped something,
+    startDelay: 0.5
+    duration: 1.44
+  - text: oh don't worry,
+    startDelay: 0.12
+    duration: 0.78
+  - text: I'll bring it to the evidence room.
+    startDelay: 0.16
+    duration: 1.74
+  - text: Still, your investigation must be getting close.
+    startDelay: 0.62
+    duration: 2.84
+  - text: Keep at it.
+    startDelay: 0.52
+    duration: 0.62
+  - text: That's the spirit.
+    startDelay: 0.26
+    duration: 1.02

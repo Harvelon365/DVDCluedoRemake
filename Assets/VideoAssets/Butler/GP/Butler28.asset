@@ -17,4 +17,21 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 1.92
+    duration: 0.86
+  - text: 'During tea time all guests were sitting around
+
+      the rose garden
+      sunning themselves,'
+    startDelay: 1.52
+    duration: 5.52
+  - text: probably just taking a much needed break.
+    startDelay: 0.78
+    duration: 2.72
+  - text: 'Even Rusty and Mrs. White took a break to enjoy
+
+      the sun.'
+    startDelay: 0.96
+    duration: 5.04

@@ -17,4 +17,26 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Well done! Now secretly take a look at the
+
+      face down card in this
+      room.'
+    startDelay: 2.16
+    duration: 5.32
+  - text: 'It''s an item that''s already been found so you
+
+      can cross it off
+      your clue pad.'
+    startDelay: 0.46
+    duration: 4.88
+  - text: 'Put the card back down in the room when you
+
+      are done face down.'
+    startDelay: 0.74
+    duration: 4.4
+  - text: 'Let the other players earn the right to see
+
+      it.'
+    startDelay: 0.52
+    duration: 2.96

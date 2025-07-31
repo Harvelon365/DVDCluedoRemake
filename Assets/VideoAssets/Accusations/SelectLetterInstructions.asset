@@ -17,4 +17,21 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'First, take a look through the glass at the
+
+      screen.'
+    startDelay: 2.32
+    duration: 3.16
+  - text: I'm going to briefly show a letter of the alphabet.
+    startDelay: 0.84
+    duration: 2.9
+  - text: 'You''ll have to be looking through the magnifying
+
+      glass to see
+      it.'
+    startDelay: 0.88
+    duration: 3.16
+  - text: Are you ready?
+    startDelay: 0.74
+    duration: 0.98

@@ -17,4 +17,21 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Good day.
+    startDelay: 1.88
+    duration: 1.3
+  - text: 'Despite all the trouble Mrs. White went to
+
+      setting the dinner table,'
+    startDelay: 1.2
+    duration: 4.3
+  - text: 'the Reverend Green and the esteemed Prince
+
+      Asiur decided to have
+      dinner in the lounge.'
+    startDelay: 0.8
+    duration: 6.28
+  - text: Thankfully, they didn't spill anything.
+    startDelay: 0.88
+    duration: 2.64

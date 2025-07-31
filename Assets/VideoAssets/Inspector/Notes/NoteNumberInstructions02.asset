@@ -17,4 +17,16 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Ah! Come to read one of my notes,
+    startDelay: 2.14
+    duration: 2.42
+  - text: have you? Good show!
+    startDelay: 0.12
+    duration: 1.4
+  - text: 'You''ll need to look through the magnifying
+
+      glass so that only
+      you can read this information.'
+    startDelay: 0.48
+    duration: 6.08

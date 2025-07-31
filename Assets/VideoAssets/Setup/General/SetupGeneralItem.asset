@@ -17,4 +17,15 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Turn over one of the item cards.
+    startDelay: 0
+    duration: 2.34
+  - text: This is the item that has been stolen.
+    startDelay: 0.68
+    duration: 2.14
+  - text: 'Return the rest of the item cards to the box
+
+      out of play.'
+    startDelay: 0.44
+    duration: 3.94

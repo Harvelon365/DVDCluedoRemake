@@ -17,4 +17,24 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Coming!
+    startDelay: 2.12
+    duration: 0.72
+  - text: 'The study and billiard room were being cleaned
+
+      from before dawn
+      until dinner and were out of bounds to the guests.'
+    startDelay: 1.54
+    duration: 7
+  - text: 'Of course I spent most of the day shooing them
+
+      away.'
+    startDelay: 1.04
+    duration: 3.52
+  - text: 'Apparently many of them don''t like being told
+
+      where they can and
+      cannot go.'
+    startDelay: 0.96
+    duration: 5.72

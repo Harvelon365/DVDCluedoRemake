@@ -17,4 +17,13 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'Players should now look at the cards in their
+
+      hand and cross them
+      off their cloupad.'
+    startDelay: 0.58
+    duration: 4.74
+  - text: Keep your cloupad secret.
+    startDelay: 0.46
+    duration: 1.64

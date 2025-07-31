@@ -17,4 +17,9 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'First, separate the 11 item cards out of the
+
+      deck.'
+    startDelay: 0
+    duration: 4.46

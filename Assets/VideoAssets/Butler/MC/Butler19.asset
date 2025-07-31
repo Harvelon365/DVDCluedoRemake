@@ -17,4 +17,24 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Good day!
+    startDelay: 2.06
+    duration: 1.14
+  - text: I do know that Prince Azur,
+    startDelay: 1.1
+    duration: 2.42
+  - text: 'Rusty, Professor Plum and the Reverend Green
+
+      were all seen coming
+      out of the kitchen before breakfast.'
+    startDelay: 0.36
+    duration: 6.46
+  - text: For the life of me,
+    startDelay: 0.66
+    duration: 1.06
+  - text: 'I can''t figure out what they were doing in
+
+      there.'
+    startDelay: 0.2
+    duration: 2.72

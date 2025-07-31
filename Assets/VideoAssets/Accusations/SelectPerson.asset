@@ -17,4 +17,18 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: First, I need you to select one of these suspects.
+    startDelay: 3.26
+    duration: 3.14
+  - text: 'Use the remote to put the letter I showed you
+
+      under your choice,'
+    startDelay: 0.68
+    duration: 4.38
+  - text: and then hit OK to select it.
+    startDelay: 0.26
+    duration: 2.76
+  - text: I do hope you remember the letter.
+    startDelay: 0.6
+    duration: 1.88

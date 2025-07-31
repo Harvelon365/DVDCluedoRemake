@@ -17,4 +17,39 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: 'All of Dr. Black''s friends have gathered to
+
+      welcome him back from
+      his holiday.'
+    startDelay: 1.62
+    duration: 4.9
+  - text: After the tragic death of Dr. Black's lawyer,
+    startDelay: 0.66
+    duration: 2.84
+  - text: 'Miles Meadowbrook, Dr. Black took several weeks
+
+      off in the Mediterranean.'
+    startDelay: 0.56
+    duration: 4.58
+  - text: He gambled in Monte Carlo,
+    startDelay: 0.82
+    duration: 1.34
+  - text: sailed the wine-dark seas,
+    startDelay: 0.64
+    duration: 1.58
+  - text: danced in Paris,
+    startDelay: 0.7
+    duration: 0.96
+  - text: and saw ancient ruins in Greece.
+    startDelay: 0.48
+    duration: 2.36
+  - text: 'He returned just in time to be robbed in his
+
+      own mansion by one
+      of his own guests,'
+    startDelay: 0.86
+    duration: 7.14
+  - text: not the ideal Oka Miko.
+    startDelay: 0.8
+    duration: 2.26

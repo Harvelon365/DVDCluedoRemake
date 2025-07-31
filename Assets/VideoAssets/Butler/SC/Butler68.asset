@@ -17,4 +17,21 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello!
+    startDelay: 2
+    duration: 0.78
+  - text: Prince Asir stopped by during lunch.
+    startDelay: 1.6
+    duration: 3.32
+  - text: He had been hoping to talk to Lady Lavender,
+    startDelay: 0.68
+    duration: 2.42
+  - text: but was too late as she had already left.
+    startDelay: 0.24
+    duration: 2.68
+  - text: 'He grabbed an apple from the fruit bowl and
+
+      left shortly thereafter.'
+    startDelay: 0.9
+    duration: 5.06

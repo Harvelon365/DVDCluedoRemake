@@ -17,4 +17,28 @@ MonoBehaviour:
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []
-  subtitles: []
+  subtitles:
+  - text: Hello.
+    startDelay: 2.02
+    duration: 0.76
+  - text: 'Colonel Mustard told me that he saw someone
+
+      lurking around in one
+      of the North Rooms today,'
+    startDelay: 1.6
+    duration: 6.52
+  - text: whomever it was was acting quite suspiciously.
+    startDelay: 0.62
+    duration: 3.66
+  - text: 'I''m not sure why the good Colonel waited until
+
+      the end of the
+      day to give me this information.'
+    startDelay: 0.76
+    duration: 5.22
+  - text: Too busy recounting tales of his days in Africa,
+    startDelay: 1.02
+    duration: 3.7
+  - text: no doubt.
+    startDelay: 0.4
+    duration: 0.34
