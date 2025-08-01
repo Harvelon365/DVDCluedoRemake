@@ -16,7 +16,8 @@ MonoBehaviour:
   nextClipID: {fileID: 0}
   buttons: 0
   onClipStartEvents: []
-  onClipEndEvents: []
+  onClipEndEvents:
+  - ShowMenu
   subtitles:
   - text: 'Oh dear, spring is in the air and the mansion
 

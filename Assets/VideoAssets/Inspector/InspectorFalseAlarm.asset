@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: InspectorFalseAlarm
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: 44d9b40be73f43049ac7a78b5a578669, type: 2}
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []

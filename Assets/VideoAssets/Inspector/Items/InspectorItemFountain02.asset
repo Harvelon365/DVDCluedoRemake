@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: InspectorItemFountain02
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: 424350c1dbc1d0345904a21f35c56991, type: 2}
   buttons: 0
-  onClipStartEvents: []
+  onClipStartEvents:
+  - AddItemCard
   onClipEndEvents: []
   subtitles:
   - text: 'I was just investigating when I found one of

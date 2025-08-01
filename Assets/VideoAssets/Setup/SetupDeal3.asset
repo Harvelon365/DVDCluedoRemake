@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SetupDeal3
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: b91bb3622f3e72643904043bd1fa1863, type: 2}
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []

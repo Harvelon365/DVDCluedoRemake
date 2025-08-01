@@ -37,6 +37,7 @@ public class SelectionManager : MonoBehaviour
     private void Start()
     {
         currentPageIndex = -1;
+        currentSelectionLetter = -10;
     }
 
     private void MoveSelectionRight(InputAction.CallbackContext obj)
@@ -117,6 +118,7 @@ public class SelectionManager : MonoBehaviour
     public void FinishSelections()
     {
         isSelecting = false;
+        currentSelectionLetter = -10;
         GameManager.Instance.ShowResults(selections);
     }
 }

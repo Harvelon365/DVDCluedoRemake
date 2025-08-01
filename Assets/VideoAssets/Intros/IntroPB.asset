@@ -16,7 +16,8 @@ MonoBehaviour:
   nextClipID: {fileID: 0}
   buttons: 0
   onClipStartEvents: []
-  onClipEndEvents: []
+  onClipEndEvents:
+  - ShowMenu
   subtitles:
   - text: 'The Doctor Black invited all of his friends
 

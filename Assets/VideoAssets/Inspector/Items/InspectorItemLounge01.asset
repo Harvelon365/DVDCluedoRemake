@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: InspectorItemLounge01
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: 5b695f7e9b42c0744860a80fd92a2d02, type: 2}
   buttons: 0
-  onClipStartEvents: []
+  onClipStartEvents:
+  - AddItemCard
   onClipEndEvents: []
   subtitles:
   - text: 'I''ve found another one of those items we are

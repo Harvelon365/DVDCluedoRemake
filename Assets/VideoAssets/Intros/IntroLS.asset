@@ -16,7 +16,8 @@ MonoBehaviour:
   nextClipID: {fileID: 0}
   buttons: 0
   onClipStartEvents: []
-  onClipEndEvents: []
+  onClipEndEvents:
+  - ShowMenu
   subtitles:
   - text: The week before Dr. Black's 30th birthday,
     startDelay: 1.7

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NoteNumberInstructions01
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: a394d41131723004dbcc63ecacec0a6b, type: 2}
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []

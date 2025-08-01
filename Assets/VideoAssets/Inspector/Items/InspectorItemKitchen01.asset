@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: InspectorItemKitchen01
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: 1a3cc7b73838ecb4b8de3bdab4f43399, type: 2}
   buttons: 0
-  onClipStartEvents: []
+  onClipStartEvents:
+  - AddItemCard
   onClipEndEvents: []
   subtitles:
   - text: 'I was just investigating when I found one of

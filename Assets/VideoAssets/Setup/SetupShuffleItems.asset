@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SetupShuffleItems
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: e373e8b529427e444ba0dcfa7a350390, type: 2}
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []

@@ -16,5 +16,6 @@ MonoBehaviour:
   nextClipID: {fileID: 0}
   buttons: 0
   onClipStartEvents: []
-  onClipEndEvents: []
+  onClipEndEvents:
+  - SecretPassage
   subtitles: []

@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   looping: 0
   nextClipID: {fileID: 0}
-  buttons: 0
+  buttons: 2
   onClipStartEvents: []
-  onClipEndEvents: []
+  onClipEndEvents:
+  - ShowMenu
   subtitles: []

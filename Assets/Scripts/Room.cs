@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 
+[CreateAssetMenu(fileName = "NewRoom", menuName = "Room")]
 public class Room : ScriptableObject
 {
     public RoomObservation[] observations;

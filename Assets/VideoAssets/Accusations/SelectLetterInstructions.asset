@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0e679ee746cef74385f94d48e72f9ba, type: 3}
   m_Name: SelectLetterInstructions
   m_EditorClassIdentifier: 
-  looping: 0
+  looping: 1
   nextClipID: {fileID: 0}
-  buttons: 0
-  onClipStartEvents: []
+  buttons: 10
+  onClipStartEvents:
+  - PickSelectionLetter
   onClipEndEvents: []
   subtitles:
   - text: 'First, take a look through the glass at the

@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
     public GameObject settingsMenu;
     public Button settingsButton;
     public Button reloadClipButton;
+    [SerializeField] private CanvasGroup reloadText;
     [SerializeField] private TMP_Text subtitleText;
     [SerializeField] private RectTransform subtitleBackground;
     [SerializeField] private Image selectionLetterImage;
@@ -342,7 +343,7 @@ public class GameManager : MonoBehaviour
             if (eventCountdown == 0)
             {
                 clip = inspectorCallClip;
-                eventCountdown = 3;
+                eventCountdown = 4;
             }
             else
             {
@@ -420,8 +421,24 @@ public class GameManager : MonoBehaviour
     }
     
     public void RetryCurrentClip()
-    { 
+    {
+        StartCoroutine(ShowRetryText());
         ShowClip(currentClipData);
+    }
+    
+    private IEnumerator ShowRetryText()
+    {
+        while (reloadText.alpha < 1f)
+        {
+            reloadText.alpha += Time.deltaTime * 2f;
+            yield return null;
+        }
+        yield return new WaitForSeconds(1f);
+        while (reloadText.alpha > 0f)
+        {
+            reloadText.alpha -= Time.deltaTime * 2f;
+            yield return null;
+        }
     }
 
     private IEnumerator ShowLoadingScreenAfterDelay()
@@ -668,9 +685,14 @@ public class GameManager : MonoBehaviour
 
     private void PickSelectionLetter()
     {
-        var randomIndex = Random.Range(0, SelectionManager.Instance.selectionSprites.Length - 1);
-        selectionLetterImage.sprite = SelectionManager.Instance.selectionSprites[randomIndex];
-        SelectionManager.Instance.currentSelectionLetter = randomIndex;
+        if (SelectionManager.Instance.currentSelectionLetter == -10)
+        {
+            var randomIndex = Random.Range(0, SelectionManager.Instance.selectionSprites.Length - 1);
+            SelectionManager.Instance.currentSelectionLetter = randomIndex;
+        }
+        
+        selectionLetterImage.sprite = SelectionManager.Instance.selectionSprites[SelectionManager.Instance.currentSelectionLetter];
+        
     }
 
     private void ShowSelectionLetter()

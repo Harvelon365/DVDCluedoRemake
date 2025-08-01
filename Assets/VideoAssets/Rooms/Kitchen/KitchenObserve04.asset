@@ -16,7 +16,8 @@ MonoBehaviour:
   nextClipID: {fileID: 0}
   buttons: 0
   onClipStartEvents: []
-  onClipEndEvents: []
+  onClipEndEvents:
+  - ShowRoomQuestion
   subtitles:
   - text: Okay, so you want to take a look at that card.
     startDelay: 2

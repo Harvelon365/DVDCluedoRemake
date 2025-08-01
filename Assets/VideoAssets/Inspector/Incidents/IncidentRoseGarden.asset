@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: IncidentRoseGarden
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: 9c2e51f6ee3267e41b24bde877c56435, type: 2}
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []

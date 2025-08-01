@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SetupEnvelopeComplete
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: 2910487a814df1446b759663ed9b6b1e, type: 2}
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []

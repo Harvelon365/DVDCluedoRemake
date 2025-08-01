@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: SetupCharactersBS4
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: fda245fb031a9b34485c72adaf9b0f5f, type: 2}
   buttons: 0
-  onClipStartEvents: []
+  onClipStartEvents:
+  - Set4Players
   onClipEndEvents: []
   subtitles:
   - text: 'You will be using the following characters

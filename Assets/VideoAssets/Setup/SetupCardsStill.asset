@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0e679ee746cef74385f94d48e72f9ba, type: 3}
   m_Name: SetupCardsStill
   m_EditorClassIdentifier: 
-  looping: 0
+  looping: 1
   nextClipID: {fileID: 0}
-  buttons: 0
+  buttons: 8
   onClipStartEvents: []
   onClipEndEvents: []
   subtitles: []

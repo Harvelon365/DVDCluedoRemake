@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3477caafb3c21ac439344109729202de, type: 3}
+  m_Name: Kitchen
+  m_EditorClassIdentifier: 
+  observations:
+  - observationClip: {fileID: 11400000, guid: 0bcd3bdb853dd9d4c9eee47d3d245ac8, type: 2}
+    questions:
+    - questionClip: {fileID: 11400000, guid: fd29e9230a498a148914f80c5229f768, type: 2}
+      answerClip: {fileID: 11400000, guid: 6b6e1bef5c7685f4495ba90e02f05a6a, type: 2}
+    - questionClip: {fileID: 11400000, guid: 8d1b922ede1396845b7608ebbe7f6688, type: 2}
+      answerClip: {fileID: 11400000, guid: 3d0eee7c1ab4ae0488508733bb675cc8, type: 2}
+    - questionClip: {fileID: 11400000, guid: 14e5a7b164e84204aa2cc64192715d9b, type: 2}
+      answerClip: {fileID: 11400000, guid: 1485b65aaa93f6145984f803925dd23c, type: 2}
+  - observationClip: {fileID: 11400000, guid: 5699472e42fd05f4a939970fd5df12d8, type: 2}
+    questions:
+    - questionClip: {fileID: 11400000, guid: 4762cf5f7c409974599740d222d11e00, type: 2}
+      answerClip: {fileID: 11400000, guid: 3cdb201ef8c8e8049b2dc8f848e8a778, type: 2}
+    - questionClip: {fileID: 11400000, guid: dfae854c0da19944cb2cd97095d75413, type: 2}
+      answerClip: {fileID: 11400000, guid: 6a01edc5a65c90a45aa6fcb2dffa99e0, type: 2}
+    - questionClip: {fileID: 11400000, guid: 36b13873992ba934e87349c61286d68c, type: 2}
+      answerClip: {fileID: 11400000, guid: 2e5d34e7995efb34cb6db2c58423e95b, type: 2}
+  - observationClip: {fileID: 11400000, guid: ba2c6e4c5bf3e6744af3e47660119835, type: 2}
+    questions:
+    - questionClip: {fileID: 11400000, guid: 1cf311d1336a1e841aa5bf8d899ea7bb, type: 2}
+      answerClip: {fileID: 11400000, guid: 59f4ec8f4f61ebd45b8c35eff93c3988, type: 2}
+    - questionClip: {fileID: 11400000, guid: 56f2cc75c66470e43a365a44bda3bbb5, type: 2}
+      answerClip: {fileID: 11400000, guid: a72b2fe649642df488b53ab15cc3eb8a, type: 2}
+    - questionClip: {fileID: 11400000, guid: f16d1710f4b2caa4d88b4682a96609f4, type: 2}
+      answerClip: {fileID: 11400000, guid: 6860eefd709f66b40acf310b5b81fd3f, type: 2}
+  - observationClip: {fileID: 11400000, guid: c805768202c95384998d02ee6f3c0dbc, type: 2}
+    questions:
+    - questionClip: {fileID: 11400000, guid: ad950b6177c3b90488a847ac5cb277f9, type: 2}
+      answerClip: {fileID: 11400000, guid: 744419d8e9aadc34b928c24adfda7338, type: 2}
+    - questionClip: {fileID: 11400000, guid: 62d89de6091c8d04fb5bad0cb47e7ac4, type: 2}
+      answerClip: {fileID: 11400000, guid: 0ac44311859b1a64b81778b4a0bd3b29, type: 2}
+    - questionClip: {fileID: 11400000, guid: 8f4029eb3f698d74c8977ce80f07eb80, type: 2}
+      answerClip: {fileID: 11400000, guid: 94b46f88185fb854b9ae6e8ef470b921, type: 2}
+  successClip: {fileID: 11400000, guid: 43ffcf66185712643b4344126316e107, type: 2}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: IncidentHall
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: d19b4f8b8ed2c044cb3118dbb60ea691, type: 2}
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []

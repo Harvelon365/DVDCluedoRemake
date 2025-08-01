@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Butler37
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: 1c9eeb21a81bc5442853580baed1a334, type: 2}
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []

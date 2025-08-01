@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: InspectorRareBook
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: 870c1bd1730a6a249b033c4213dbe86e, type: 2}
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []

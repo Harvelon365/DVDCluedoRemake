@@ -19,6 +19,7 @@ public class SettingsManager : MonoBehaviour
         GameManager.Instance.enableMenuMusic = menuMusicToggle.isOn;
         subtitlesToggle.isOn = PlayerPrefs.GetInt("Subtitles", 0) == 1;
         GameManager.Instance.showSubtitles = subtitlesToggle.isOn;
+        highlightToggle.isOn = PlayerPrefs.GetInt("HighlightButton", 0) == 1;
         GameManager.Instance.highlightFirstButton = highlightToggle.isOn;
         GameManager.Instance.currentLayout?.HighlightButton(highlightToggle.isOn);
     }
@@ -33,6 +34,7 @@ public class SettingsManager : MonoBehaviour
         GameManager.Instance.enableMenuMusic = menuMusicToggle.isOn;
         PlayerPrefs.SetInt("Subtitles", subtitlesToggle.isOn ? 1 : 0);
         GameManager.Instance.showSubtitles = subtitlesToggle.isOn;
+        PlayerPrefs.SetInt("HighlightButton", highlightToggle.isOn ? 1 : 0);
         GameManager.Instance.highlightFirstButton = highlightToggle.isOn;
         GameManager.Instance.currentLayout?.HighlightButton(highlightToggle.isOn);
     }

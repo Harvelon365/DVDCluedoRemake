@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: IncidentBilliards
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: 970cb8b462048e648a3c9b622790173f, type: 2}
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SetupLocksPassages
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: 80c34d9390f258047a400e81057b00b0, type: 2}
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []

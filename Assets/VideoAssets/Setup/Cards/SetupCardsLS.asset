@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SetupCardsLS
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: 888484b47abb766499c4dd4dca2e48d2, type: 2}
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []

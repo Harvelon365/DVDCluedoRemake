@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SelectIntstructions
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: 7f741f360dc83c7458fc32190356c7df, type: 2}
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SetupItemsPantry
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: cabb038eb834bd542ba41664d8ceb612, type: 2}
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []

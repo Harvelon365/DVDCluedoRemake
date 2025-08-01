@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: InspectorButlerAvailable
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: 44d9b40be73f43049ac7a78b5a578669, type: 2}
   buttons: 0
-  onClipStartEvents: []
+  onClipStartEvents:
+  - EnableButler
   onClipEndEvents: []
   subtitles:
   - text: 'I''ve finished my discussions with Ash the Butler

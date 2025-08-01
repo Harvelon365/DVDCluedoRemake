@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EndingBS
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: 12a2dc974057f52449b715dedced5d4b, type: 2}
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []

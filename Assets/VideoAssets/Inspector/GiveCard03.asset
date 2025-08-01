@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GiveCard03
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: c616fe31495282c49961b4792ad41354, type: 2}
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []

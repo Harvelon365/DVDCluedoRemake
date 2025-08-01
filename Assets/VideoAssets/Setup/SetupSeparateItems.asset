@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SetupSeparateItems
   m_EditorClassIdentifier: 
   looping: 0
-  nextClipID: {fileID: 0}
+  nextClipID: {fileID: 11400000, guid: b763ee048e823ff40b2d653ccb04d82f, type: 2}
   buttons: 0
   onClipStartEvents: []
   onClipEndEvents: []

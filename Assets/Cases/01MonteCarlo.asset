@@ -13,91 +13,53 @@ MonoBehaviour:
   m_Name: 01MonteCarlo
   m_EditorClassIdentifier: 
   setupClips:
-  - {fileID: 11400000, guid: 899da4414e0a73f41b76b2f02d6cc68e, type: 2}
-  - {fileID: 11400000, guid: 28db7d25056c8c345a9103aad7cc0561, type: 2}
-  - {fileID: 11400000, guid: 2512df6a86c57394e957b25fcb12156d, type: 2}
-  - {fileID: 11400000, guid: f79f712faf1b99542bc02c854645ab37, type: 2}
-  players3Clip: {fileID: 11400000, guid: f5278bdc38e1ec946849c49dbb7cd8a1, type: 2}
-  players4Clip: {fileID: 11400000, guid: e10a89db8b8486e469d80003b3a1db6d, type: 2}
-  players5Clip: {fileID: 11400000, guid: 54afc49ee8d131c4aa0b8511a29924ab, type: 2}
-  introClip: {fileID: 11400000, guid: 51eca3b372bbcdd4dac4db2736f22ed9, type: 2}
-  menuClip: {fileID: 11400000, guid: 9ea3d46d36fd5704dbcbf61205ad3bde, type: 2}
-  endingClip: {fileID: 11400000, guid: 47974ba2575535243a2f9b34e68f53f3, type: 2}
+  - {fileID: 11400000, guid: c099b1d77bf08e04a982c7ef1f37768b, type: 2}
+  - {fileID: 11400000, guid: ff57484bf989a5147ae12cd84b034c4a, type: 2}
+  - {fileID: 11400000, guid: 630b0823d10811548a0f017817a01c23, type: 2}
+  - {fileID: 11400000, guid: 8011b63bbe76a4043b2a613cc849c1f9, type: 2}
+  players3Clip: {fileID: 11400000, guid: 065880abfe8a57746a1fd6512714bc82, type: 2}
+  players4Clip: {fileID: 11400000, guid: 96f08208ce504f64bb9cb021657dc5f9, type: 2}
+  players5Clip: {fileID: 11400000, guid: baec12395837760428d5f2d8b953a0a5, type: 2}
+  introClip: {fileID: 11400000, guid: d4f3485a970fae941a630d2362dbe27f, type: 2}
+  menuClip: {fileID: 11400000, guid: a1ae7066ff22fce47b8d838df6986597, type: 2}
+  endingClip: {fileID: 11400000, guid: 11123f15b5e9b3747b0f38c7501071bc, type: 2}
   startSecretPassage: 1
   startSummonButler: 0
   startItemCard: 0
   startInspectorNote: 0
   eventClips:
-  - {fileID: 11400000, guid: 890cbb6f85d007f43bf6de647747554e, type: 2}
-  - {fileID: 11400000, guid: e274e9d9d540e2f43a98bdfb2a509f8d, type: 2}
-  - {fileID: 11400000, guid: fba6d993e39faa143abbfd8b16c55108, type: 2}
-  - {fileID: 11400000, guid: 12e388088b0ea834ab335ff06f395e90, type: 2}
-  - {fileID: 11400000, guid: 78621f4d341ecb84bb8c46768a3787a5, type: 2}
-  - {fileID: 11400000, guid: 0d4c2f6a9f9e96d498431f9bccc6d44b, type: 2}
-  - {fileID: 11400000, guid: f0324b2f570d7844dbcdf6018b85fbb6, type: 2}
-  - {fileID: 11400000, guid: ec29a93d66a48974c981355792074527, type: 2}
-  - {fileID: 11400000, guid: 814ee0b5164a4664bb38078c0e116e6e, type: 2}
-  - {fileID: 11400000, guid: 1d0060443a4e63e4fb5a8dee97cc3ff0, type: 2}
-  - {fileID: 11400000, guid: 18875023edaba8941ad580cacc3a4c04, type: 2}
-  - {fileID: 11400000, guid: cafe7bb2a239ea04f82382f17c90996f, type: 2}
+  - {fileID: 11400000, guid: f94c8575e0f9c7842996cc82b0f69a2c, type: 2}
+  - {fileID: 11400000, guid: 90474d1e47b9f9e469a45306b8a00c25, type: 2}
+  - {fileID: 11400000, guid: ca496bdf41e130a4cb4fdee902433235, type: 2}
+  - {fileID: 11400000, guid: 4671a5a0076fb584bac8d9a8eea21009, type: 2}
+  - {fileID: 11400000, guid: 45387ef9409c04643987f9c912c50178, type: 2}
+  - {fileID: 11400000, guid: 28020ea698eeebd47ae831a89dcc9346, type: 2}
+  - {fileID: 11400000, guid: 2bb1aa920c12f0e42aa133f8deffcd1e, type: 2}
+  - {fileID: 11400000, guid: 47416f3396eedb945add420fc1e1cbca, type: 2}
+  - {fileID: 11400000, guid: 7c7d93d246e1fbb47915fa5f48b16d29, type: 2}
+  - {fileID: 11400000, guid: af8196c24fa15d94aacf3a1af1d41335, type: 2}
+  - {fileID: 11400000, guid: c0e47ebab53ad0b4281e7d64708c7dee, type: 2}
+  - {fileID: 11400000, guid: 2b2c2f9453da02b478f4bee708268c5b, type: 2}
   secretPassageClips:
-  - {fileID: 11400000, guid: d93baf1de28f44a4c98d5ebe00e0c5cc, type: 2}
-  - {fileID: 11400000, guid: f97fff6e5ce898b4d9ca448a4ce1e109, type: 2}
-  - {fileID: 11400000, guid: 44839b55cdf43f044a027da79396702b, type: 2}
-  - {fileID: 11400000, guid: b441d7a94fc899a46a4a0422b07afba1, type: 2}
-  - {fileID: 11400000, guid: da5cd00976575a64e80cd272d2772379, type: 2}
-  - {fileID: 11400000, guid: f766ed168bddd9347a94eb9c0d3e4a14, type: 2}
+  - {fileID: 11400000, guid: c27c3977ee9ce6949bd0377539567b75, type: 2}
+  - {fileID: 11400000, guid: 2d9d28aa0a30f19499f4b5a28d032d15, type: 2}
+  - {fileID: 11400000, guid: 2067a3733f88e434d9f2bb0faa03ea62, type: 2}
+  - {fileID: 11400000, guid: fdcfe5051f6b38e42acf3838132d6e51, type: 2}
+  - {fileID: 11400000, guid: 35484ab7bfa8c994cafbd4ba0dc8fdad, type: 2}
+  - {fileID: 11400000, guid: b4980e772d830d14eaf0579850155703, type: 2}
   noteNumberSprites:
   - {fileID: 21300000, guid: 2a4bfffc3e977f34fadad6935954c9ed, type: 3}
   - {fileID: 21300000, guid: cccda295979a9974cb71922bde85d908, type: 3}
   butlerClips:
-  - {fileID: 11400000, guid: 8d28c1a314a684e469eb661f5bfd3688, type: 2}
-  - {fileID: 11400000, guid: 46d21bc93caa72542bca883dec795c03, type: 2}
-  - {fileID: 11400000, guid: 5a77baa81c9907647a56e31fe8644829, type: 2}
-  - {fileID: 11400000, guid: f1136e8e52b19384cb352b166f4a3e60, type: 2}
-  - {fileID: 11400000, guid: 77781c40c197698428fd1faec44de922, type: 2}
-  - {fileID: 11400000, guid: 9976064daf10976438651b83994ed933, type: 2}
-  - {fileID: 11400000, guid: e6dcd4f3b1649a141a70aee91b7f464c, type: 2}
-  - {fileID: 11400000, guid: 4fd96a86d8581e04b94946517a29a00c, type: 2}
+  - {fileID: 11400000, guid: 01ebb4dc7fd91fc4497ab8f2661fa937, type: 2}
+  - {fileID: 11400000, guid: 2186845aca36f524db52f7fc1aee00b7, type: 2}
+  - {fileID: 11400000, guid: 02b51ba50aa913846a660d267c09c5c0, type: 2}
+  - {fileID: 11400000, guid: 2d93a95795bd63a4caee8bf6f8ad3916, type: 2}
+  - {fileID: 11400000, guid: 40c1ec15b6b6b614b930144fa2fe4380, type: 2}
+  - {fileID: 11400000, guid: 8f1e25fbfd5a36f4aa2bba89be81f553, type: 2}
+  - {fileID: 11400000, guid: 825d40150605f904d9dfd81d38f63d73, type: 2}
+  - {fileID: 11400000, guid: 864185c782ad1b94eb69ab9203b7cf2b, type: 2}
   observableRooms:
-  - questions:
-    - observationClip: {fileID: 11400000, guid: 7e83456cc21098a4599162a67adec008, type: 2}
-      questionClip: {fileID: 11400000, guid: 1914dc86c584cbc44b2facda8bed2c25, type: 2}
-      answerClip: {fileID: 11400000, guid: 60135c65daa76384f89eac81ea7352d0, type: 2}
-    - observationClip: {fileID: 11400000, guid: 7e83456cc21098a4599162a67adec008, type: 2}
-      questionClip: {fileID: 11400000, guid: 892154a28a6a78e4f9f1fc32fd292913, type: 2}
-      answerClip: {fileID: 11400000, guid: 1b6a5bd47cd6ee94aafe4add0229627b, type: 2}
-    - observationClip: {fileID: 11400000, guid: 7e83456cc21098a4599162a67adec008, type: 2}
-      questionClip: {fileID: 11400000, guid: ac33431959303c544941a8475a1d16df, type: 2}
-      answerClip: {fileID: 11400000, guid: cd5247065afede54c8d027ccfb291d83, type: 2}
-    - observationClip: {fileID: 11400000, guid: 701f0289baf739948b234fa4f6a87ce7, type: 2}
-      questionClip: {fileID: 11400000, guid: 351878e820b5b8c4185b4cec0ed39707, type: 2}
-      answerClip: {fileID: 11400000, guid: 8e734693247212640a76ab895994163f, type: 2}
-    - observationClip: {fileID: 11400000, guid: 701f0289baf739948b234fa4f6a87ce7, type: 2}
-      questionClip: {fileID: 11400000, guid: d2ef0251bb3e983409babd0f615173e9, type: 2}
-      answerClip: {fileID: 11400000, guid: 6923433aa3da7234985262fa36ed0172, type: 2}
-    - observationClip: {fileID: 11400000, guid: 701f0289baf739948b234fa4f6a87ce7, type: 2}
-      questionClip: {fileID: 11400000, guid: a0e47dc3c04849c43bfe7feea2320f14, type: 2}
-      answerClip: {fileID: 11400000, guid: 297015c7ebb405a48948a4f2d6f501b7, type: 2}
-    successClip: {fileID: 11400000, guid: 2c3c7951e1679cc46802c8e6763af5a3, type: 2}
-  - questions:
-    - observationClip: {fileID: 11400000, guid: 69aef09be270ad44aa9c184c3041a5b0, type: 2}
-      questionClip: {fileID: 11400000, guid: 42ad4089cfbd95b4f9be0987c733fa6b, type: 2}
-      answerClip: {fileID: 11400000, guid: 1c55ae88a2850954480915333e33d0bf, type: 2}
-    - observationClip: {fileID: 11400000, guid: 69aef09be270ad44aa9c184c3041a5b0, type: 2}
-      questionClip: {fileID: 11400000, guid: 04dc0e085cd3ce0428c84ad6051f8138, type: 2}
-      answerClip: {fileID: 11400000, guid: 980001178176f5a44ae80a849acde962, type: 2}
-    - observationClip: {fileID: 11400000, guid: 69aef09be270ad44aa9c184c3041a5b0, type: 2}
-      questionClip: {fileID: 11400000, guid: 9499be1c0fc5a0849aca845262718bb3, type: 2}
-      answerClip: {fileID: 11400000, guid: ce5723a387eaedd419030e64c0f08d83, type: 2}
-    - observationClip: {fileID: 11400000, guid: 5b28540eaab98aa41a50e88967d82f42, type: 2}
-      questionClip: {fileID: 11400000, guid: f6a7141ad533b3e42a7a2086035295f3, type: 2}
-      answerClip: {fileID: 11400000, guid: 78367f52af1dca24cad3eff628babfba, type: 2}
-    - observationClip: {fileID: 11400000, guid: 5b28540eaab98aa41a50e88967d82f42, type: 2}
-      questionClip: {fileID: 11400000, guid: da350e2d05eb37e499d25a26c3037e0a, type: 2}
-      answerClip: {fileID: 11400000, guid: a30545c32715f7d40a45572cbbd7a2cc, type: 2}
-    - observationClip: {fileID: 11400000, guid: 5b28540eaab98aa41a50e88967d82f42, type: 2}
-      questionClip: {fileID: 11400000, guid: a299f56ff94ffac4488f8340a22b4345, type: 2}
-      answerClip: {fileID: 11400000, guid: edb9a23af9b7d434ca8435220cd4c002, type: 2}
-    successClip: {fileID: 11400000, guid: 42f081af38bb14444baca3f9ddea2673, type: 2}
-  roomMenu: {fileID: 11400000, guid: 30d0a85d607279041b1e242ec419238e, type: 2}
+  - {fileID: 11400000, guid: 9b48e47deca390f43a131004a88aadc7, type: 2}
+  - {fileID: 11400000, guid: b88b34b8f055ca2428f21dea88382368, type: 2}
+  roomMenu: {fileID: 11400000, guid: 8133bc2449fe17a44bf8415fa013328e, type: 2}
